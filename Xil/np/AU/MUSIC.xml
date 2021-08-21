@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nsx ver="1.0" rev="1" lt-id="1" anno="max-age=21600" min-sys-ver="">
+	<spc id="1" rep="t" multi="o" anno="">
+		<mtrl id="1" mname="Visualizer™" from="2010-01-01T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>Visualizer™</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/visualizer.png</url>
+			<data name="activate.txt" type="120">Tm90aWNlIQoKLSBBY3RpdmUgdGhlIHN5c3RlbSB0byB1bmxvY2sgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP0743-NPEB01864_00-PJ4AMVISFULL0001&amp;url=http://dl.dropboxusercontent.com/s/tzi9anhh7qj6noc/Visualizer.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<mtrl id="2" mname="SensMe™" from="2010-01-01T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2010-01-02T00:00:00.000Z" anno="">
+			<desc>SensMe™</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/sens_me.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4950-NPEB02222_00-SPOTIFY0FULL0000&amp;url=http://nopsn.com/pkg/ps3/spotify/Spotify-v1.22-%5BNPEB02222%5D-NoPSN.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+	</spc>
+</nsx>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nsx ver="1.0" rev="1" lt-id="1" anno="max-age=21600" min-sys-ver="">
+	<spc id="1" rep="t" multi="o" anno="">
+			<mtrl id="1" mname="Amazon Prime Video - No Psn" from="2010-01-01T00:00:00.000Z" until="2100-01-01T00:00:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>Amazon Prime Video</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/amazon_prime.png</url>
+			<data name="no-psn-amazon.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLgotIFdoZW4gdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBwcm9tcHQgYXBwZWFycywgcHJlc3MgdGhlIGJhY2sgYnV0dG9uIHRvIGJ5cGFzcyBpdC4=</data>
+			<target type="u">psgm:install?contentid=EP4183-NPEB00344_00-LOVEFILMFULL0100&amp;url=http://nopsn.com/pkg/ps3/amazon/Amazon-Instant-Video-v4.06-%5BNPEB00344%5D-NoPSN.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<mtrl id="2" mname="Cinepolis KLIC" from="2010-01-01T00:00:00.000Z" until="2100-01-01T00:00:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>Cinépolis Klic</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/cinepolis.png</url>
+			<target type="u">psgm:install?contentid=UP2191-NPUP31348_00-CINEPOLISKLICPS3&amp;url=http://nopsn.com/pkg/ps3/cinepolis/Cinepolis-v1.04-%5BNPUP31348%5D.pkg</target>
+			<cntry agelmt="0">mx</cntry>
+			<lang>3</lang>
+		</mtrl>
+		<mtrl id="3" mname="CrunchyRoll - No Psn" from="2010-01-01T00:00:00.000Z" until="2100-01-01T00:00:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>CrunchyRoll</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/crunchyroll.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UP2074-NPUP10027_00-2012070500000001&amp;url=http://nopsn.com/pkg/ps3/crunchyroll/Crunchyroll-v1.30-%5BNPUP10027%5D-NoPSN.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<mtrl id="4" mname="Netflix - Official - No Longer asks for PSN" from="2010-01-01T00:00:00.000Z" until="2100-01-01T00:00:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>Netflix</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/netflix.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UT0007-NPUP00030_00-NETFLIXRIGEL01NA&amp;url=http://nopsn.com/pkg/ps3/netflix/Netflix-v2.34-%5BNPUP00030%5D.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<mtrl id="5" mname="Youtube - No Psn" from="2010-01-01T00:00:00.000Z" until="2100-01-01T00:00:00.000Z" lastm="2010-01-01T00:00:00.000Z" anno="">
+			<desc>YouTube</desc>
+			<url type="121">https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Xil/media/youtube.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4381-NPEB01229_00-YOUTUBE000000001&amp;url=http://nopsn.com/pkg/ps3/youtube/Youtube-v3.03-%5BNPEB01229%5D-NoPSHEN.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+	</spc>
+<!-- 
+<url type="121"> = ICON0.PNG = XMB Icon
+<url type="122"> = PIC0.PNG = XMB Backgroung
+<url type="123"> = PIC1.PNG = Overlay 16:9
+<url type="124"> = PIC1.PNG = Overlay 4:3
+
+Examples
+<url type="121">http://nsx.np.dl.playstation.net/nsx/material/6/69fa92e72a055bc8273fc79b133d2b55707388b7-211482.png</url>
+<url type="124">http://nsx.np.dl.playstation.net/nsx/material/e/e617a5a6d475a5c20cf26a87288fe06999eb8bd0-211483.png</url>
+<url type="122">http://nsx.np.dl.playstation.net/nsx/material/6/66c85c6f7b92759aa1b9e67bbbc37d3fd689d02b-211485.png</url>
+<url type="123">http://nsx.np.dl.playstation.net/nsx/material/6/68ce02f53373a4de6cac5f2793a085da3850f734-211486.png</url>
+
+Download links with psn official server will ask for PSN Login.
+-->
+			
+</nsx>
