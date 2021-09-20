@@ -801,7 +801,7 @@ Todos que doaram para manter este projeto vivo.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Hora local atual.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/clock_pt.swf</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock_pt.swf</url>
 <target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
