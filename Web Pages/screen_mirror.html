@@ -1,0 +1,98 @@
+<!-- Coded for PS3™ 4K Pro by Luan Teles -->
+
+<html>
+<head>
+<style>
+body { background-image:url("http://raw.githubusercontent.com/LuanTeles/PS3-4K-Pro/main/Web%20Pages/media/screen_mirror.png");
+background-size: 100%; margin-top: 3%; margin-left: 8%; margin-right: 8%; marginbottom: 8%;}
+body {background-color:#000000;}
+body {color:white;}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btnStyle {
+outline-color:white;
+border: 2px;
+}
+
+.btnStyle:focus {
+	color: white;
+	background: #0000aa;
+	outline-color:white;
+}
+
+</style>
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+
+function accessfunction(data)
+{
+	document.getElementById("accessFunctionText").innerHTML = data + document.getElementById("accessFunctionText").innerHTML;
+}
+ 
+
+function goTo(URL)
+{
+    document.cookie="start_url=" + URL;
+	window.location.href = URL;
+}
+
+
+function getDefaultValue(key, def_value)
+{
+    var c = key + "=";
+    var cookies = document.cookie.split(';');
+
+    for(var i = 0; i < cookies.length; i++)
+    {
+        while(cookies[i].charAt(0)==' ') cookies[i]=cookies[i].substring(1);
+        if(cookies[i].indexOf(c) != -1) return cookies[i].substring(c.length,cookies[i].length);
+    }	
+
+    return def_value;
+}
+</script>
+<div id="ip_adress" align="center">
+<body onload=initPage() >
+	<form>
+		<span id="firstStart"></span><br>
+		<input id="start_url" type="text" name="url" size="80"/> 
+		<input type="Button" class="btnStyle" value="->" onclick="goTo(form.url.value)"/><br>
+		</form>
+	<p id="accessFunctionText"></p>
+</body>
+
+<a href="http://dl.dropboxusercontent.com/s/n78y5q88p6n4l6u/category_network_screen_mirror-tutorial.html">
+<button style="background: #d600ff; border-radius: 16px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">How to Set Up</button></a>
+
+</html>
+
+<script>
+document.getElementById("start_url").setAttribute("value", getDefaultValue("start_url", "http://"));
+</script>

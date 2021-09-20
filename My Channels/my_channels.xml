@@ -1,0 +1,392 @@
+<!-- Coded for PS3™ 4K Pro by Luan Teles -->
+
+<nsx ver="1.0" rev="1" lt-id="1" anno="max-age=99" min-sys-ver="">
+	<spc id="33537" rep="t" multi="o" anno="csxad=1&amp;adspace=1,52,53,54,55" autoflip="4000">
+		<!-- ABC View -->
+		<mtrl id="1" mname="ABC iView - No Psn" from="2015-02-13T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-07-13T15:35:40.000Z" anno="premium=1">
+			<desc>ABC iView</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/d/dd5c3942bbf693b1d872e103fd9baea5ec418ec7-1088886.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4443-NPEB02205_00-ABC0IVIEW0000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/ABC_iView_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- All4 -->
+		<mtrl id="2" mname="All4 - No Psn" from="2015-04-07T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-04-07T11:01:39.000Z" anno="new=1">
+			<desc>All 4</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/f/f86cfcb4253fa0dbcee29ee80228971a81b424ed-1063932.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4449-NPEB01271_00-CHANNEL404OD0100&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/All4_v1.06.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Amazon Prime Video -->
+		<mtrl id="3" mname="Amazon Prime Video - No Psn" from="2017-09-05T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-08-31T13:11:45.000Z" anno="csxad=1">
+			<desc>Amazon Prime Video</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/e/e8e92b9e8da655ac1c48b45ebce86dc1a0c36ca2-1178889.png</url>
+			<data name="no-psn-amazon.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLgotIFdoZW4gdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBwcm9tcHQgYXBwZWFycywgcHJlc3MgdGhlIGJhY2sgYnV0dG9uIHRvIGJ5cGFzcyBpdC4=</data>
+			<target type="u">psgm:install?contentid=EP4183-NPEB00344_00-LOVEFILMFULL0100&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Amazon_Instant_Video_v4.06.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Anime Lab -->
+		<mtrl id="4" mname="AnimeLab - No Psn" from="2015-10-18T15:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-16T14:11:49.000Z" anno="csxad=0">
+			<desc>AnimeLab</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/4/47f26d124e8ad2d3d40be095d0f813c9ec1a7d6d-1110041.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8812-NPEB02357_00-WEBMAF00ANIMELAB&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/AnimeLab_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Cinépolis -->
+		<mtrl id="5" mname="Cinépolis - No Psn" from="2015-10-18T15:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-16T14:11:49.000Z" anno="">
+			<desc>Cinépolis</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/cinepolis.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UP2191-NPUP31348_00-CINEPOLISKLICPS3&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Cinepolis_v1.04.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- ClanTV -->		
+		<mtrl id="6" mname="ClanTV - No Psn" from="2014-12-10T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-12-10T11:11:38.000Z" anno="">
+			<desc>ClanTV</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/2/2b90f9a36839492268b628bd4223554f925bbaba-1014663.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4490-NPEB02080_00-WEBMAF0000CLANTV&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/ClanTV_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Crackle -->		
+		<mtrl id="7" mname="Crackle - No Psn and No Ads" from="2014-12-10T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-12-10T11:11:38.000Z" anno="">
+			<desc>Crackle</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/crackle.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=US0007-NPUP00077_00-CRACKLEPS3TRILIT&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Crackle_v2.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- CrunchyRoll -->
+		<mtrl id="8" mname="CrunchyRoll - No Psn" from="2012-08-13T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2016-03-08T22:25:21.000Z" anno="">
+			<desc>CrunchyRoll</desc>
+			<url type="118">http://nsx.np.dl.playstation.net/nsx/material/1/1a14bf49df7e19a8af57af3c1d44161bd64a051f-1134954.jpg</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UP2074-NPUP10027_00-2012070500000001&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Crunchyroll_v1.30.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Dansk Filmskat -->	
+		<mtrl id="9" mname="Dansk Filmskat - No Psn" from="2015-09-21T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-09-21T09:05:14.000Z" anno="">
+			<desc>Dansk Filmskat</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/c/c887e238ac1e39779c601063796a7b4fd29daf44-1104963.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8811-NPEB02344_00-000DANSKFILMSKAT&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Dansk_Filmskat_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- DAZN -->		
+		<mtrl id="10" mname="Dazn - No Psn" from="2016-12-07T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2016-11-30T10:11:30.000Z" anno="">
+			<desc>Danz</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/danz.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8819-NPEB02391_00-PERFORMGROUP2016&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/DAZN_v1.03.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Film1 -->		
+		<mtrl id="11" mname="Fi1m - Official" from="2016-12-07T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2016-11-30T10:11:30.000Z" anno="">
+			<desc>Fi1m</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/fi1m.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP8820-NPEB02412_00-WEBMAF00PS4FILM1&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Film1_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!--FoxTel Play-->
+		<mtrl id="12" mname="Foxtel Play - No Psn" from="2014-03-31T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-03-31T13:10:00.000Z" anno="">
+			<desc>Foxtel</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/7/7cdf2a2de530f377a690cbc0f22cd2623ea0f23b-739787.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4480-NPEB02003_00-FOXTELFULLAPP000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Foxtel_Play_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Game One -->
+		<mtrl id="13" mname="Game One - Official" from="2014-01-08T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-01-08T11:49:29.000Z" anno="">
+			<desc>Game One</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/c/c56e1a5a950aa71628eb208338d8d5aed94b93ea-649394.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4455-NPEB01941_00-WEBMAF000GAMEONE&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/GameOne_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- HBO Nordic -->		
+		<mtrl id="14" mname="HBO Nordic - No Psn" from="2015-10-21T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-12-07T10:54:19.000Z" anno="">
+			<desc>HBO</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/6/6a946122b3d3ce9c5c4163b8a5347a6a199ca06d-1185300.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8806-NPEB02292_00-WEBMAF0HBONORDIC&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/HBO_Nordic_v1.11.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Hulu -->
+		<mtrl id="15" mname="Hulu - No Psn" from="2018-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:29:54.000Z" anno="">
+			<desc>Hulu</desc>
+			<url type="118">http://nsx.np.dl.playstation.net/nsx/material/a/abbd8278a5baa03c63d2a6b71c1e4b815e9fe743-1215060.jpg</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UT0008-NPUP00046_00-2010101201639300&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Hulu_v2.30.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- iHeart -->
+		<mtrl id="16" mname="iHeart - Official" from="2018-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:29:54.000Z" anno="">
+			<desc>iHeart</desc>
+			<url type="118">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/iheart_radio.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=UP2207-NPUP31352_00-IHEARTRADIOAPP15&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/iHeart_Radio_v1.03.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- iPla -->
+		<mtrl id="17" mname="iPla - Official" from="2011-07-29T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2011-08-01T09:19:34.000Z" anno="">
+			<desc>iPla</desc>
+			<url type="118">http://nsx.np.dl.playstation.net/nsx/material/5/5dfd1e412a8965eb61cbd3f58c80bfd1783cfed4-145083.jpg</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4451-NPEB00703_00-PL000000FULL0100&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/iPLA_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Maxdome -->
+		<mtrl id="18" mname="Maxdome - Official" from="2015-10-22T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-19T11:52:10.000Z" anno="">
+			<desc>Maxdome</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/maxdome.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4374-NPEB01192_00-MAXDOMEFULLAPP00&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Maxdome_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- MEO -->
+		<mtrl id="19" mname="MEO - No Psn" from="2013-12-16T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2013-12-16T10:28:07.000Z" anno="">
+			<desc>MEO</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/e/ef7ececdfa12d1bccd49b062470afea80efa35ea-637012.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4428-NPEB01906_00-WEBMAF00000MEOGO&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/MEO_VideoClube_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Min Bio -->
+		<mtrl id="20" mname="Min Bio - Official" from="2015-10-22T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-19T11:52:10.000Z" anno="">
+			<desc>Min Bio</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/5/585bc04abb128fda06569c3a3d0005a05349caa4-1110165.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP8811-NPEB02345_00-WEBMAF0000MINBIO&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/MinBio_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- MLB TV -->
+		<mtrl id="21" mname="MLB TV - No Psn" from="2014-03-24T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2016-04-04T23:18:08.000Z" anno="">
+			<desc>MLB.TV®</desc>
+			<url type="118">http://nsx.np.dl.playstation.net/nsx/material/0/00571da45bfbe8dd7ecf70056f4e5e59f747bc54-732629.jpg</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UP0181-NPUP31353_00-MLBTVPS3US000001&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/MLB_TV_v2.95.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Movian -->
+		<mtrl id="22" mname="Movian - Unofficial" from="2014-12-10T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-12-10T14:38:32.000Z" anno="">
+			<desc>Movian</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/movian.png</url>
+			<target type="u">psgm:install?contentid=UP0001-HTSS00003_00-0000000000000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Movian_v5.0.723.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Mubi -->
+		<mtrl id="23" mname="Mubi - Official" from="2014-12-10T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-12-10T14:38:32.000Z" anno="">
+			<desc>Mubi</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/4/43fd183380ff589de53d7917524c5ee8a85888fe-1014840.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4164-NPEB02149_00-WEBMAF000000MUBI&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/MUBI_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Multiplayer -->	
+		<mtrl id="24" mname="Multiplayer.it - No Psn" from="2014-03-12T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-03-12T14:29:30.000Z" anno="">
+			<desc>Multiplayer.it</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/6/6c238b5388e19cde78146def650c24240bb5b46a-717955.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4462-NPEB01990_00-WEBMAF00000MULTI&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Multiplayer_It_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Netflix-->			
+		<mtrl id="25" mname="Netflix - Official - No Longer asks for PSN" from="2018-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:42:01.000Z" anno="">
+			<desc>Netflix</desc>
+			<url type="118">http://nsx.np.dl.playstation.net/nsx/material/2/278bde480e78ec2b04cb2f32fee8e01998175329-1215059.jpg</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UT0007-NPUP00030_00-NETFLIXRIGEL01NA&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Netflix_v2.36.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- NFL -->	
+		<mtrl id="26" mname="NFL" from="2014-03-12T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-03-12T14:29:30.000Z" anno="">
+			<desc>NFL</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/nfl.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=UP9002-NPUO00019_00-NFLTVPS3STREAM01&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/DirecTV_NFL_v6.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- NºK TV -->			
+		<mtrl id="27" mname="NºK TV - Official" from="2018-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:42:01.000Z" anno="">
+			<desc>NRK TV</desc>
+			<url type="118">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/nrk_tv.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4509-NPEB02137_00-WEBMAF00000NRKTV&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/NRK_TV_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- NºK Super -->			
+		<mtrl id="28" mname="NºK Super - Official" from="2018-02-27T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2020-01-29T19:42:01.000Z" anno="">
+			<desc>NRK Super</desc>
+			<url type="118">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/nrk_super.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4509-NPEB02136_00-WEBMAF00NRKSUPER&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/NRK_Super_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Pathe Thuis -->
+		<mtrl id="29" mname="Pathe Thuis - Official" from="2014-02-05T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-02-05T11:42:36.000Z" anno="">
+			<desc>Pathé Thuis.</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/6/67ff46d61aff90b83a61558d68d9645265668651-675332.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4466-NPEB01974_00-WEBMAF00000PATHE&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Pathe_Thuis_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Plex -->
+		<mtrl id="30" mname="Plex - Official" from="2014-12-16T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-12-16T17:22:08.000Z" anno="">
+			<desc>Plex</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/e/e487b370d44ccc5532a1588d37289aabc14c05cb-1019087.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4544-NPEB02214_00-WEBMAF000000PLEX&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Plex_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Rakuten TV -->
+		<mtrl id="31" mname="Rakuten TV - Official" from="2013-08-14T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2018-11-27T15:55:19.000Z" anno="">
+			<desc>Rakuten TV</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/6/67074b88b3d7a16aaa476be4f7bb89ae1a52d162-1203974.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4410-NPEB01813_00-WUAKI0FULL000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Rakuten_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Red Bull TV -->	
+		<mtrl id="32" mname="Red Bull TV - Official" from="2017-08-21T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-08-21T15:35:40.000Z" anno="">
+			<desc>Red Bull TV</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/c/c8f5ff911245380f98ec6d46527a9aa5f5b6101d-1178057.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP8842-NPEB02455_00-GREDBULLTV000001&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/RedBull_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- RTBF -->
+		<mtrl id="33" mname="RTBF - Official" from="2013-07-01T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2013-07-01T14:20:52.000Z" anno="">
+			<desc>RTBF</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/5rfq8vaybnjx9ku/rtbf.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4400-NPEB01429_00-RTBF0000WEBMAF00&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/RTBT_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Spotify -->
+		<mtrl id="34" mname="Spotify - No Psn" from="2015-10-07T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-07T13:45:16.000Z" anno="">
+			<desc>Spotify</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/gefcrasb8nv451j/spotify.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4950-NPEB02222_00-SPOTIFY0FULL0000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Spotify_v1.22.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Stan -->
+		<mtrl id="35" mname="Stan - Official" from="2015-10-07T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-10-07T13:45:16.000Z" anno="">
+			<desc>Stan</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/b/b6019e88f4967fcd14c9885667615ef3f1c14e51-1108198.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP8814-NPEB02362_00-WEBMAF000000STAN&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Stan_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Tubi TV -->
+		<mtrl id="36" mname="Tubi TV - Official" from="2017-06-20T07:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-11-21T19:28:45.000Z" anno="fixed=1">
+			<desc>Tubi TV</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/tubi.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=UP8834-NPUP31377_00-TUBITVPS30000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Tubi_TV_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- TV2 Sumo -->
+		<mtrl id="37" mname="TV2 Sumo - No Psn" from="2015-01-19T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-01-19T17:47:35.000Z" anno="">
+			<desc>TV2 Sumo</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/e/edc03d50b4e4fd5d73427929237a543097ee0667-1035835.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4458-NPEB01956_00-WEBMAF000TV2SUMO&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/TV2_Sumo_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- TV3-->		
+		<mtrl id="38" mname="TV3 - No Psn" from="2014-11-24T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-11-24T10:44:33.000Z" anno="">
+			<desc>TV3</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/tv3.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4516-NPEB02166_00-WEBMAF0000000TV33&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/TV3_v1.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- Twitch -->
+		<mtrl id="39" mname="Twitch - No Psn and etHANol" from="2016-04-20T00:00:00.000Z" until="2100-03-05T23:59:00.000Z" lastm="2020-03-05T09:51:25.000Z" anno="">
+			<desc>Twitch</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/f/f5dabb331ee6720b6a81daa6317d15eb289d3b5f-1140512.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8816-NPEB02359_00-GTWITCHXXX000001&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Twitch_v1.07.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- Vevo -->
+		<mtrl id="40" mname="Vevo - No Psn" from="2016-04-20T00:00:00.000Z" until="2100-03-05T23:59:00.000Z" lastm="2020-03-05T09:51:25.000Z" anno="">
+			<desc>Vevo</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/vevo.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4547-NPEB02212_00-WEBMAF000000VEVO&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Vevo_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- ViaPlay -->	
+		<mtrl id="41" mname="ViaPlay - Official" from="2012-11-14T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2012-11-14T09:47:52.000Z" anno="max-age=60">
+			<desc>ViaPlay</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/0/04dd144d66bcea4c5717200437990992964fbaec-325732.png</url>
+			<data name="official.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBub3QgeWV0IGJlZW4gcGF0Y2hlZCB0byBieXBhc3MgdGhlIFBsYXlTdGF0aW9u4oSiTmV0d29yayBsb2dpbiBmcm9tIHRoZSBzeXN0ZW0uCi0gWW91IG11c3QgYmUgY29ubmVjdGVkIHRvIFBsYXlTdGF0aW9u4oSiTmV0d29yayBpbiBvcmRlciB0byB1c2UgdGhpcyBhcHBsaWNhdGlvbi4=</data>
+			<target type="u">psgm:install?contentid=EP4345-NPEB00863_00-VIAPLAYFULLAPP00&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/ViaPlay_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- VUDU™ -->	
+		 <mtrl id="42" mname="VUDU™ Movie Service - No Psn and Region Free" from="2011-06-15T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2011-07-31T11:15:20.000Z" anno="">
+            <desc>VUDU™ Movie Service</desc>
+            <url type="117">http://nsx.e1-np.dl.playstation.net/fs/nsx/material/2/2f8426b922331cbb2d46a47fbcb6dc7dd5b74370-3390.png</url>
+            <data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=UT0015-NPUP00047_00-VUDU000000065977&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Vudu_v2.01.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+        </mtrl>
+
+				<!-- Youtube™ -->			
+		<mtrl id="43" mname="Youtube - No Psn" from="2012-08-13T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2014-10-28T22:48:06.000Z" anno="">
+			<desc>YouTube</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/6/62c86f1cc8f6e341d0763977f802f55aa1dfb204-973553.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP4381-NPEB01229_00-YOUTUBE000000001&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/Youtube_v3.03.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- YuppTV -->	
+		<mtrl id="44" mname="Yupp TV - No Psn" from="2015-12-22T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2015-12-22T11:32:34.000Z" anno="">
+			<desc>YuppTV</desc>
+			<url type="117">http://nsx.np.dl.playstation.net/nsx/material/f/f0693d569e9d2f9e68c165d915224a7cbc8d33ef-1122300.png</url>
+			<data name="no-psn.txt" type="120">Tm90aWNlIQoKLSBUaGlzIGFwcGxpY2F0aW9uIGhhcyBiZWVuIHBhdGNoZWQgdG8gYnlwYXNzIHRoZSBQbGF5U3RhdGlvbuKEok5ldHdvcmsgbG9naW4gZnJvbSB0aGUgc3lzdGVtLg==</data>
+			<target type="u">psgm:install?contentid=EP8810-NPEB02350_00-WEBMAF0000YUPPTV&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/YuppTV_v1.02.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+		<!-- XVideos Straight Edition -->
+		<mtrl id="45" mname="XVideos - Straight Edition" from="2017-06-20T07:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-11-21T19:28:45.000Z" anno="fixed=1">
+			<desc>XVideos - Straight Edition</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/xvideos_straight.png</url>
+			<data name="+18.txt" type="120">V2FybmluZyEKCi0gWW91IG11c3QgYmUgMTggb3Igb2xkZXIgaW4gb3JkZXIgdG8gZG93bmxvYWQgdGhpcyBjb250ZW50Lg==</data>
+			<target type="u">psgm:install?contentid=PS3CFW-XVIDEOSHT_00-0000000000000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/XVideos_Straight_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- XVideos Gay Edition -->
+		<mtrl id="46" mname="XVideos - Straight Edition" from="2017-06-20T07:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-11-21T19:28:45.000Z" anno="fixed=1">
+			<desc>XVideos - Gay Edition</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/xvideos_gay.png</url>
+			<data name="+18.txt" type="120">V2FybmluZyEKCi0gWW91IG11c3QgYmUgMTggb3Igb2xkZXIgaW4gb3JkZXIgdG8gZG93bmxvYWQgdGhpcyBjb250ZW50Lg==</data>
+			<target type="u">psgm:install?contentid=PS3CFW-XVIDEOSGA_00-0000000000000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/XVideos_Gay_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>		<!-- XVideos Lesbian Edition -->
+		<mtrl id="47" mname="XVideos - Straight Edition" from="2017-06-20T07:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2017-11-21T19:28:45.000Z" anno="fixed=1">
+			<desc>XVideos - Lesbian Edition</desc>
+			<url type="117">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/My%20Channels/media/xvideos_lesbian.png</url>
+			<data name="+18.txt" type="120">V2FybmluZyEKCi0gWW91IG11c3QgYmUgMTggb3Igb2xkZXIgaW4gb3JkZXIgdG8gZG93bmxvYWQgdGhpcyBjb250ZW50Lg==</data>
+			<target type="u">psgm:install?contentid=PS3CFW-XVIDEOSLB_00-0000000000000000&amp;url=http://github.com/LuanTeles/Packages/releases/download/Multimedia/XVideos_Lesbian_v1.00.pkg</target>
+			<cntry agelmt="0">all</cntry>
+			<lang>all</lang>
+		</mtrl>
+	</spc>
+</nsx>
