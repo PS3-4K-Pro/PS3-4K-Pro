@@ -1,0 +1,2616 @@
+<!-- Coded for PS3™ 4K Pro by Luan Teles -->
+
+<nsx anno="" lt-id="131" min-sys-ver="1" rev="1093" ver="1.0">
+<spc anno="csxad=1&adspace=9,10,11,12,13" id="33537" multi="o" rep="t">
+
+<!-- 01 English -->
+<!-- lastm="2100-09-12T15:10:00.000Z" in the future to always shows the clock ads  from="2010-12-15T00:00:00.000Z" until="2011-12-15T00:00:00.000Z" lastm="2010-12-15T06:45:40.000Z" anno="" -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>Welcome to PS3™ 4K Pro, enjoy the new and improved features.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Upgrade your PS3™ to PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>News and Updates will be displayed here as soon as they become available.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>How about helping translating the features to other languages?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Check the latest news about consoles on PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Enjoy your games at home and stay safe while on the COVID-19 pandemic.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Do you have a brand or product and want it to be promoted here?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Enjoy your favorite music with online radio.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Meet new people &amp; make new friends using the online chat feature.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Join us on the Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Support: If you like my work, please consider making a small donation!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Pro Members!
+Everyone who donated to keep this project alive.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Check out the breaking headlines and news of the moment and around the world.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Get the forecast for today, tonight &amp; tomorrow's weather.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Current local time.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Unofficial©Stores
+Support for custom stores are available now!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<data name="unofficial_store.txt" type="120">RGlzY2xhaW1lciEKCi0gVGhpcyBhcHBsaWNhdGlvbiBhZGRzIHN1cHBvcnQgZm9yIFVub2ZmaWNpYWzCqVN0b3JlcywgdXNlIGl0IGF0IHlvdXIgb3duIHJpc2suCi0gVW5vZmZpY2lhbMKpU3RvcmVzIGFyZSBub3QgaW50ZW5kZWQgZm9yIHBpcmFjeSwgZG93bmxvYWQgb25seSB0aGUgZ2FtZXMgdGhhdCB5b3UgaGF2ZSBsZWdhbGx5IHB1cmNoYXNlZC4=</data>
+<target type="u">psgm:install?contentid=EP4443-NPEB02205_00-ABC0IVIEW0000000&amp;url=http://nopsn.com/pkg/ps3/abc/ABC-iView-v1.01-%5BNPEB02205%5D-NoPSN.pkg</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+
+ <!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>A New Update is Available: v5.X
+Click here to download.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>1</lang><lang>18</lang><lang>1</lang>
+</mtrl>
+
+<!-- 02 French -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>Bienvenue sur PS3™ 4K Pro, profitez des fonctionnalités nouvelles et améliorées.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Améliorez votre PS3™ à PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Les actualités et mises à jour seront affichées ici dès qu'elles seront disponibles.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Que diriez-vous d'aider à traduire les fonctionnalités pour d'autres langues?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Si vous pouvez aider à le traduire, visitez PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Profitez de vos jeux à la maison et restez en sécurité pendant la pandémie COVID-19.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Avez-vous une marque ou un produit et souhaitez-vous en faire la promotion ici?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Profitez de votre musique préférée avec la radio en ligne.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Rencontrez de nouvelles personnes et faites-vous de nouveaux amis en utilisant la fonction de chat en ligne.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Rejoignez-nous sur Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Soutien: Si vous aimez mon travail, pensez à faire un petit don!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Membres Pro!
+Tous ceux qui ont fait un don pour maintenir ce projet en vie.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Découvrez les gros titres et les actualités du moment et dans le monde.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Obtenez les prévisions météo pour aujourd'hui, ce soir et demain.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Heure locale actuelle.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+ <!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Une nouvelle mise à jour est disponible: v5.X
+Cliquez ici pour télécharger.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+
+<!-- 03 Spanish -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>Bienvenido a PS3™ 4K Pro, disfruta de las funciones nuevas y mejoradas.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Actualiza tu PS3™ a PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Las noticias y actualizaciones se mostrarán aquí tan pronto como estén disponibles..</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>¿Qué le parece ayudar a traducir las funciones a otros idiomas?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Si puede ayudar a traducirlo, visite PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Disfrute de sus juegos en casa y manténgase a salvo durante la pandemia de COVID-19.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>¿Tienes una marca o producto y quieres que se promocione aquí?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Disfrute de su música favorita con la radio en línea.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Conoce gente nueva & amp; haz nuevos amigos usando la función de chat en línea.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Únete a nosotros en Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Apoyo: Si te gusta mi trabajo, ¡considera hacer una pequeña donación !.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>¡Miembros Pro!
+Todos los que donaron para mantener vivo este proyecto.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Consulta los titulares de última hora y las noticias del momento y de todo el mundo.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Obtenga el pronóstico para hoy, esta noche & amp; el tiempo de mañana.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Hora local actual.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+ <!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Hay una nueva actualización disponible: v5.X
+Haga click aquí para descargar.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<!-- 04 German -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>Willkommen bei PS3™ 4K Pro, genießen Sie die neuen und verbesserten Funktionen.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Rüste deine PS3™ zu einer PS4™ auf.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Nachrichten und Updates werden hier angezeigt, sobald sie verfügbar sind. Zurzeit gibt's leider aber nichts Neues.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Wie wäre es mit der Hilfe bei der Übersetzung der Funktionen für andere Sprachen?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Wenn Sie bei der Übersetzung helfen können, besuchen Sie uns auf PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Genießen Sie Ihre Spiele zu Hause und bleiben Sie während der COVID-19-Pandemie gesund.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Haben Sie eine Marke oder ein Produkt und möchten, dass es hier beworben wird?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Genießen Sie Ihre Lieblingsmusik mit dem Online-Radio.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Lerne neue Leute kennen und nutze die Online-Chat-Funktion mit deinen Freunden in Kontakt zu bleiben. </desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Begleiten Sie uns auf Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Support: Wenn Ihnen unsere Arbeit gefällt, machen Sie bitte eine kleine Spende!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Ein Danke an alle Pro Mitglieder!
+An alle, die gespendet haben, um dieses Projekt am Leben zu erhalten ein großes Dankeschön.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Schauen Sie sich die aktuellen Schlagzeilen und Nachrichten auf der ganzen Welt an.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Holen Sie sich die Wetterprognosen für heute und das Wetter von morgen.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Aktuelle Ortszeit:</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+ <!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Ein neues Update ist verfügbar: v5.X.
+Klicke hier um es herunterzuladen.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<!-- 05 Italian -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>Benvenuto in PS3™ 4K Pro, goditi le nuove funzionalità migliorate.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Aggiorna a PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Le notizie e gli aggiornamenti verranno visualizzati qui non appena saranno disponibili.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Che ne dici di aiutare a tradurre le funzionalità in altre lingue?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Se puoi aiutare a tradurre, visita PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Goditi i tuoi giochi stando a casa al sicuro durante la pandemia COVID-19.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Hai un marchio o un prodotto e vuoi che venga promosso qui?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Goditi la tua musica preferita con la radio online.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Incontra nuove persone e fai nuove amicizie utilizzando la funzione di chat online.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Unisciti a noi su Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Supporto: Se ti piace il mio lavoro, considera di fare una piccola donazione !</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Membri Pro!
+Tutti coloro che hanno donato per mantenere vivo questo progetto.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/htutto_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Dai un'occhiata ai titoli e alle notizie mondiali più recenti del momento.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Ottieni le previsioni per oggi, stasera e il tempo di domani.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Ora locale attuale.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+	<!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>È disponibile un nuovo aggiornamento: v5.X
+Clicca qui per scaricare.</desc>
+<url type="1">URL</url>
+<target type="u">AZIONE</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<!-- 07 Porguese BR -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z"  anno="emergency=1">
+<desc>Bem-vindo ao PS3™ 4K Pro, aproveite os recursos novos e aprimorados.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Atualize seu PS3™ para PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Notícias e atualizações serão exibidas aqui assim que estiverem disponíveis.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Que tal me ajudar a traduzir os recursos para outros idiomas?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">photo:browse?category=ALL</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="channel=1">
+<desc>Confira as últimas notícias sobre consoles na PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Aproveite seus jogos em casa e fique seguro na pandemia de COVID-19.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Você tem uma marca ou produto e quer ser promovido aqui?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Desfrute da sua música favorita com o rádio online.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Conheça novas pessoas &amp; faça novos amigos usando o recurso de bate-papo online.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Junte-se a nós no Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://dl.dropboxusercontent.com/s/z77juu6k1d8br7h/telegram_portuguese.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Se você gosta do meu trabalho, considere fazer uma pequena doação via PicPay!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://dl.dropboxusercontent.com/s/4be0eh29v51yizj/donate_portuguese.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Membros Pro! 
+Todos que doaram para manter este projeto vivo.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Confira as principais manchetes e notícias do momento e do mundo.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Obtenha a previsão do tempo para hoje, à noite &amp; amanhã.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Hora local atual.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/clock_pt.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Uma nova versão está disponível: v5.X
+Clique aqui para baixar.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<!-- 08 Russian -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>PS3™ 4K Pro - это новый внешнешний вид, а так улучшенные функции вашей PS3™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Обнови свою консоль PS3™ до PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Новости и обновления будут отображаться здесь, как только они станут доступны.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Хотите помочь в переводе PS3™ 4K Pro для других языков?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Решили помочь с переводом, посетите сайт "psx-place.com".</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Играйте дома и оставайтесь в бесопасности во время пандемии COVID-19.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>У Вас есть бренд или продукт, который Вы хотите продвигать здесь?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Наслаждайтесь любимой музыкой с помощью онлайн радио.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Знакомьтесь и заводите новых друзей в онлайн чате PS3™ 4K Pro.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Присоединяйтесь к нам в Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Хотите поддержать развитие проекта PS3™ 4K Pro?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Всё о тех кто поддержал развитие проекта.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Мировые новости.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Погода.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Местное время.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Доступно обновление PS3™ 4K Pro: v.5.X. 
+Нажмите здесь, чтобы его загрузить.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<!-- 11 Chinese S -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>欢迎来到PS3™ 4K Pro, 请享受新的和改进的功能.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>升级你的PS3™为PS4™.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>在有消息和升级的时候 会在这里显示.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>帮助翻译为其他语言怎么样?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>如果你能帮忙翻译,请前往PSX-PLACE.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>在家里享受你的游戏并在新冠疫情时注意安全.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>你有品牌或产品想在这里推广吗?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>使用在线电台收听你喜欢的音乐.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>使用在线聊天功能 &amp; 结交新朋友.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>加入我们的Telegram.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>支持: 如果你喜欢我的项目, 请考虑捐点儿款吧!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>专业版成员!
+所有捐款保证这个项目存在的人.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>查看现在世界各地的头条新闻.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>获取今天, 今晚 &amp; 明天的天气预报.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>当前的本地时间.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>新版本现已可用: v5.X
+点击此处下载.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<!-- 19 Turkish -->
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="emergency=1">
+<desc>PS3™ 4K Pro'ya hoşgeldiniz, yeni ve geliştirilmiş özelliklerin tadını çıkarın.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/welcome.swf</url>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>PS3™'ünüzü PS4™'e yükseltin.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/upgrade.jpg</url>
+<target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/media/ads/rick_astley.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Haberler ve güncellemeler mevcut olduğu zaman burada gösterilecek.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.jpg</url>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>PS3™ 4K Pro modunun diğer dillere çevrilmesine yardım etmeye ne dersiniz?</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/translation.jpg</url>
+<target type="u">psns:mygame?type=playhistory</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Eğer çeviriye yardım etmek istiyorsan PSX-PLACE.com'u ziyaret et.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/psx-place.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/psx-place.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>COVID-19 salgınındayken oyunlarınızın keyfini evde çıkarın ve güvende kalın.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.png</url> 
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/covid.swf</url>
+<target type="u">psgm:play?id=BLES80608</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Markanızın veya ürününüzün burada tanıtılmasını ister misiniz?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/ads.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/contact.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Çevrimiçi rasyo ile favori müziklerinizin keyfini çıkarın.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/radio.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/radio.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Çevrimiçi sohbet özelliği ile yeni insanlarla tanışın ve arkadaşlar edinin.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/chat.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/chat.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Telegram'da bize katılın..</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/telegram.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/telegram.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Destekleyin: Eğer çalışmamı beğendiyseniz, lütfen küçük bir bağış yapmayı ihmal etmeyin!.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/donation.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/donate.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Ayrıcalıklı Üyeler:
+Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/hall_of_fame.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/members.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Anında dünyanın dört bir yanındaki son dakika haberlere göz atın.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/news.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/breaking_news.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
+<desc>Get the forecast for today, tonight &amp; tomorrow's weather.
+Bugün, bu gece ve yarının hava durumu tahminini alın.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/weather.png</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/weather_forecast.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" >
+<desc>Şimdiki yerel saati gösterir.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/ads/clock.swf</url>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's%20New/pages/world_time_server.html</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!-- Disabled -->
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
+<desc>Yeni Güncelleme Mevcut: v5.X
+İndirmek için tıklayın.</desc>
+<url type="1">URL</url>
+<target type="u">ACTION</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+<!------------------------------------------------HOLYDAYS AND COMMEMORATIVE DAYS------------------------------------------->
+<!-- Max 80 caracteres -->
+<!-- 01 English --> 
+
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Valentine's Day!
+Love is in the air.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-04T00:00:00.000Z" until="2021-04-05T00:00:00.000Z" lastm="2021-04-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Easter!
+Celebrate the life.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Mother's Day
+For all the bravest women of our lives.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-13T00:00:00.000Z" until="2021-06-14T00:00:00.000Z" lastm="2021-06-13T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Children's Day
+Never let the child inside you die.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-20T00:00:00.000Z" until="2021-06-21T00:00:00.000Z" lastm="2021-06-20T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Father's Day
+For all the most incredible men in our lives.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Independence Day!
+Celebrate the history of your country.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>Labor Day!
+Thank you for the hard work and dedication.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Trick or treat?
+Happy Halloween!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-01T00:00:00.000Z" until="2021-11-02T00:00:00.000Z" lastm="2021-11-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Day of the Dead!
+Celebrate the memory of the beloved ones that passed away.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>1</lang>
+<lang>18</lang><lang>1</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-25T00:00:00.000Z" until="2021-11-26T00:00:00.000Z" lastm="2021-11-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Thanksgiving Day!
+There's always something to be thankful for.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Christmas Eve!
+Gather with all your loved ones.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Merry Christmas!
+Peace and Blessings to you and your family!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy New Year!
+May this year be filled with luck, love and happiness!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
+</mtrl>
+
+
+<!-- 02 French -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeuse saint Valentin!
+L'amour est dans l'air.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeuse Pâques!
+Célébrez la vie.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Bonne fête des mères
+A toutes les femmes les plus courageuses de nos vies.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Bonne fête des enfants
+Ne laisse jamais l'enfant en toi mourir.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeuse fête des Pères
+À tous les hommes les plus incroyables de nos vies.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeux Jour de l'Indépendance!
+Célébrez l'histoire de votre pays.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeuse fête du Travail!
+Merci pour le travail acharné et le dévouement.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Des bonbons ou un sort?
+Joyeux Halloween!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>Joyeux jour des morts!
+Célébrez la mémoire des êtres chers qui sont décédés.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>Bonne journée de remerciement!
+Il y a toujours quelque chose pour lequel être reconnaissant.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Bonne veille de Noël!
+Rassemblez-vous avec tous vos proches.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>joyeux Noël!
+Paix et bénédictions pour vous et votre famille!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url><target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Bonne année!
+Que cette année soit remplie de chance, d'amour et de bonheur!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>2</lang>
+</mtrl>
+
+<!-- 03 Spanish --> 
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz día de San Valentín!
+El amor está en el aire.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Felices Pascuas!
+Celebre la vida.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz día de la madre
+A todas las mujeres más valientes de nuestras vidas.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Happy Childen's Day
+Nunca dejes que el niño dentro de ti muera.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Día del Padre
+A todos los hombres más increíbles de nuestras vidas.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz día de la independencia!
+Celebre la historia de su país.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz día  del trabajador!
+Gracias por el arduo trabajo y la dedicación.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>¿Truco o trato?
+¡Feliz Halloween!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz día de los Muertos!
+Celebre la memoria de los seres queridos que fallecieron.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz día de acción de gracias!
+Siempre hay algo por lo que estar agradecido.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz Nochebuena!
+Reúnanse con todos sus seres queridos.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz Navidad!
+¡Paz y bendiciones para ti y tu familia!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>¡Feliz año nuevo!
+¡Que este año esté lleno de suerte, amor y felicidad!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>3</lang>
+</mtrl>
+
+<!-- 04 German -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Fröhlichen Valentinstag!
+Liebe liegt in der Luft.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>Frohe Ostern!
+Feiern Sie das Leben.</desc>
+<url type="1"></url>
+<url type="73"></url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Schönen Muttertag!
+Das geht an alle unsere tapferen Mütter und Frauen da draußen.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Einen glücklichen Children's Day
+Lasst niemals das Kind in Euch sterben.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>Alles gute zum Vatertag!
+Das geht an alle unglaublichen Männer und Väter in unserem Leben da draußen.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Einen fröhlichen Unabhängigkeitstag!
+Feiern Sie die Geschichte Ihres Landes.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>Einen glücklichen Tag der Arbeit!
+Vielen Dank für die harte Arbeit und das Engagement.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Süßes oder Saures?
+Ein fröhlich schrauriges Halloween an alle!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>Einen fröhlichen Día de Muertos!
+Gedenken und Feiern Sie die Erinnerungen an die verstorbenen Nächsten.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>Frohes Erntedankfest!
+Es gibt immer etwas, für das man dankbar sein kann.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Frohe Weihnachten!
+Genießt die Zeit mit all Euren Liebsten.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Fröhliche Weihnachten!
+Wir wünschen Euch Frieden und alles Gute für Sie und Ihre Familie!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Frohes neues Jahr!
+Möge das neue Jahr voller Glück, Liebe und Glück für Euch sein!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>4</lang>
+</mtrl>
+
+<!-- 05 Italian -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Buon San Valentino!
+L'amore è nell'aria.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>Buona Pasqua!
+Celebrate la vita.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Buona festa della mamma
+A tutte le donne coraggiose della nostra vita.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Buona giornata dei bambini felici
+Non lasciare mai che il bambino dentro di te muoia.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>Buona festa del papà
+A tutti gli uomini più incredibili della nostra vita.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Felice giorno dell'indipendenza!
+Celebrate la storia del vostro paese.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>Buona festa dei lavoratori!
+Grazie per il duro lavoro e per la dedizione.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Dolcetto o scherzetto?
+Buon Halloween!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>Buon giorno dei morti!
+Celebrate il ricordo degli amati che sono morti.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>Felice giorno del Ringraziamento!
+C'è sempre qualcosa per cui essere grati.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Buon Natale!
+Radunati con tutti i tuoi cari.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Buon Natale!
+Pace e benedizioni a te e alla tua famiglia!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Felice anno nuovo!
+Possa quest'anno essere pieno di fortuna, amore e felicità!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>5</lang>
+</mtrl>
+
+<!-- Portugues BR -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-06-12T00:00:00.000Z" until="2021-06-13T00:00:00.000Z" lastm="2021-06-12T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Dia dos namorados!
+O amor está no ar.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-04T00:00:00.000Z" until="2021-04-05T00:00:00.000Z" lastm="2021-04-04T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Páscoa!
+Comemore a vida.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Dia das Mães
+Para todas as mulheres mais corajosas de nossas vidas.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-10-12T00:00:00.000Z" until="2021-10-12T00:00:00.000Z" lastm="2021-10-12T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz dia das crianças
+Nunca deixe a criança dentro de você morrer.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-08-08T00:00:00.000Z" until="2021-08-09T00:00:00.000Z" lastm="2021-08-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz dia dos Pais
+Para todos os homens mais incríveis de nossas vidas</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Dia da Independência!
+Comemore a história do seu país.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-05-01T00:00:00.000Z" until="2021-05-02T00:00:00.000Z" lastm="2021-05-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Dia do Trabalho!
+Obrigado pelo árduo trabalho e dedicação.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Doçura ou travessura?
+Feliz dia das bruxas!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz dia dos Finados!
+Comemore a memória dos entes queridos que faleceram.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-25T00:00:00.000Z" until="2021-11-26T00:00:00.000Z" lastm="2021-11-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz dia de ação de graças!
+Sempre há algo pelo que agradecer.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz vespera de Natal!
+Reúna-se com todos os seus entes queridos.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Natal!
+Paz e bênçãos para você e sua família!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Feliz Ano Novo!
+Que este ano seja repleto de sorte, amor e felicidade!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<!-- 08 Russian -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём Святого Валентина!
+Любовь в воздухе.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url> 
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-05-02T00:00:00.000Z" until="2021-05-03T00:00:00.000Z" lastm="2021-05-02T00:00:00.000Z" anno="emergency=1" >
+<desc>С Пасхой!
+Праздновать жизнь.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём Матери!
+Для всех самых смелых женщин в нашей жизни.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-01T00:00:00.000Z" until="2021-06-02T00:00:00.000Z" lastm="2021-06-01T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём Защиты Детей!
+Никогда не позволяйте ребенку внутри вас умереть.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-20T00:00:00.000Z" until="2021-06-21T00:00:00.000Z" lastm="2021-06-20T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём Отца!
+Для всех самых невероятных мужчин в нашей жизни.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-06-12T00:00:00.000Z" until="2021-06-13T00:00:00.000Z" lastm="2021-06-12T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём России!
+Празднуйте историю своей страны.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-05-01T00:00:00.000Z" until="2021-05-02T00:00:00.000Z" lastm="2021-05-01T00:00:00.000Z" anno="emergency=1" >
+<desc>С Днём Труда!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Счастливого Хэллоуина!
+Кошелек или жизнь?</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-05-11T00:00:00.000Z" until="2021-05-12T00:00:00.000Z" lastm="2021-05-11T00:00:00.000Z" anno="emergency=1" >
+<desc>С Радоницей!
+Отпразднуйте память о ушедших из жизни любимых.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-09-21T00:00:00.000Z" until="2021-09-22T00:00:00.000Z" lastm="2021-09-21T00:00:00.000Z" anno="emergency=1" >
+<desc>С Праздником Урожая!
+Всегда есть за что быть благодарным.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<!--Christmas Eve-->
+<mtrl id="0" from="2021-01-06T00:00:00.000Z" until="2021-01-07T00:00:00.000Z" lastm="2021-01-06T00:00:00.000Z" anno="emergency=1" >
+<desc>С Рождественским Сочельником!
+Соберитесь со всеми своими близкими.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-01-07T00:00:00.000Z" until="2021-01-08T00:00:00.000Z" lastm="2021-01-07T00:00:00.000Z" anno="emergency=1" >
+<desc>С Рождеством Христовом!
+Мира и благословения вам и вашей семье!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>С Новым Годом!
+Пусть этот год будет наполнен удачей, любовью и счастьем!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>8</lang>
+</mtrl>
+
+<!-- 11 Chinese S -->
+	<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>情人节快乐!
+空气中弥漫着爱情的味道.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>复活节快乐!
+庆祝生命.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>母亲节快乐!
+献给我们生命中最勇敢的女人.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>儿童节快乐!
+永远不要让你的童真消失.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>父亲节快乐!
+献给我们生命中最不可思议的男人.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>独立日快乐!
+庆祝你们国家的历史.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>劳动节快乐!
+感谢你的辛勤工作和奉献.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>不给糖就捣蛋?
+万圣节快乐!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>亡灵节快乐!
+纪念你记忆中那位已去世的人.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>感恩节快乐!
+总有一件值得感谢的事.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>平安夜快乐!
+与所有亲人聚会.
+</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>圣诞节快乐!
+祝你的家人平安幸福</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>新年快乐!
+原今年充满幸运,爱与幸福!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>11</lang>
+</mtrl>
+
+<!-- 19 Turkish -->
+
+<!--Valentine's Day -->
+<mtrl id="0" from="2021-02-14T00:00:00.000Z" until="2021-02-15T00:00:00.000Z" lastm="2021-02-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Sevgililer Gününüz Kutlu Olsun!
+Havada aşk konkusu var.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/valentine%27s_day.swf</url>
+<target type="u">http://localhost/install.ps3?to=/dev_hdd0/theme&url=https://github.com/LuanTeles/PS3-4K-Pro/raw/main/Resources/Themes/ValentinesDay.p3t;/wait.ps3?20;/install.ps3/dev_hdd0/theme/ValentinesDay.p3t</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!-- Easter -->
+<mtrl id="0" from="2021-04-21T00:00:00.000Z" until="2021-04-22T00:00:00.000Z" lastm="2021-04-21T00:00:00.000Z" anno="emergency=1" >
+<desc>Paskalya Bayramı Kutlu Olsun!
+Hayatı kutlayın.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/easter_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!-- Mother's Day -->
+<mtrl id="0" from="2021-05-09T00:00:00.000Z" until="2021-05-10T00:00:00.000Z" lastm="2021-05-09T00:00:00.000Z" anno="emergency=1" >
+<desc>Anneler Gününüz Kutlu Olsun!
+Hayatımızın en cesur kadınlarına.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/mother%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!-- Childen's Day -->
+<mtrl id="0" from="2021-06-14T00:00:00.000Z" until="2021-06-15T00:00:00.000Z" lastm="2021-06-14T00:00:00.000Z" anno="emergency=1" >
+<desc>Çocuk Bayramınız Kutlu Olsun!
+İçinizdeki çocuğun ölmesine asla izin vermeyin.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/children%27s_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!-- Father's Day -->
+<mtrl id="0" from="2021-06-16T00:00:00.000Z" until="2021-06-17T00:00:00.000Z" lastm="2021-06-16T00:00:00.000Z" anno="emergency=1" >
+<desc>Babalar Gününüz Kutlu Olsun!
+Hayatımızdaki en inanılmaz erkeklere.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/father%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Independence Day -->
+<mtrl id="0" from="2021-07-04T00:00:00.000Z" until="2021-07-05T00:00:00.000Z" lastm="2021-07-04T00:00:00.000Z" anno="emergency=1" >
+<desc>29 Ekim Cumhuriyet Bayramı Kutlu Olsun!
+Ülkenizin tarihini kutlayın.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/independence%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Labor Day -->
+<mtrl id="0" from="2021-09-07T00:00:00.000Z" until="2021-09-08T00:00:00.000Z" lastm="2021-09-07T00:00:00.000Z" anno="emergency=1" >
+<desc>İşçi Bayramınız Kutlu Olsun!
+Sıkı çalışma ve özveri için teşekkürler.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/labor%27s_day.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Halloween-->
+<mtrl id="0" from="2021-10-31T00:00:00.000Z" until="2021-11-01T00:00:00.000Z" lastm="2021-10-31T00:00:00.000Z" anno="emergency=1" >
+<desc>Şeker mi şaka mı?
+Cadılar bayramınız kutlu olsun!</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/halloween.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays//halloween.swf</url> 
+<target type="u">psvp:play?url=http://ia801508.us.archive.org/5/items/this_is_halloween_202010/Halloween.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Day of the Dead -->
+<mtrl id="0" from="2021-11-02T00:00:00.000Z" until="2021-11-03T00:00:00.000Z" lastm="2021-11-02T00:00:00.000Z" anno="emergency=1" >
+<desc>Şehitleri Anma Gününüz Kutlu Olsun!
+Vefat eden sevdiklerimizin anısına kutlayın.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/day_of_the_dead.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Thanksgiving Day -->
+<mtrl id="0" from="2021-11-26T00:00:00.000Z" until="2021-11-27T00:00:00.000Z" lastm="2021-11-26T00:00:00.000Z" anno="emergency=1" >
+<desc>Şükran Gününüz Kutlu olsun!
+Her zaman minnettar olunacak bir şey vardır.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/thanksgiving_day.swf</url> 
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Christmas Eve-->
+<mtrl id="0" from="2021-12-24T00:00:00.000Z" until="2021-12-25T00:00:00.000Z" lastm="2021-12-24T00:00:00.000Z" anno="emergency=1" >
+<desc>Noel Arifesi!
+Tüm sevdiklerinizle bir araya gelin.</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christmas_eve.jpg</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--Christmas-->
+<mtrl id="0" from="2021-12-25T00:00:00.000Z" until="2021-12-26T00:00:00.000Z" lastm="2021-12-25T00:00:00.000Z" anno="emergency=1" >
+<desc>Mutlu Noeller!
+Size ve ailenize barış ve lütuflar dileriz!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/christimas.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+	<!--New Year-->
+<mtrl id="0" from="2022-01-01T00:00:00.000Z" until="2022-01-02T00:00:00.000Z" lastm="2022-01-01T00:00:00.000Z" anno="emergency=1" >
+<desc>Yeni Yılınız Kutlu Olsun!
+Bu yıl şans, sevgi ve mutlulukla dolu olsun!</desc>
+<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.jpg</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's%20New/media/holydays/new_year.swf</url>
+<target type="u"></target>
+<cntry agelmt="0">all</cntry>
+<lang>19</lang>
+</mtrl>
+
+
+<!-----------------------------------------------------Informations------------------------------------------------------------------
+
+<!-- Images Banner
+PNG
+JPG
+
+The Images Must be 485x405 to fill the space. 
+-->
+
+<!-- Flash Banner
+SWF Video Files
+SWF Adobe 9 or less
+Flash Scropt 1.5 or less
+-->
+
+<!-- Video Types
+MOV
+MP4
+-->
+
+<!-- URL Types 
+<url type="1"> PNG
+<url type="2"> JPG
+<url type="3"> GIF
+<url type="72"> SWF
+<target type="u"> MP4,FLV,MOV
+-->
+
+<!-- The following are the tags that can be used to display in specific countries and languages. I always leave the country to all and language to the spoken languages
+but it may be different in your country or not, feel free to use them -->
+
+<!-- Contries	
+<cntry agelmt="0">ae</cntry>	<cntry agelmt="0">ar</cntry>	<cntry agelmt="0">at</cntry>	<cntry agelmt="0">au</cntry>	<cntry agelmt="0">be</cntry>
+<cntry agelmt="0">bg</cntry>	<cntry agelmt="0">bh</cntry>	<cntry agelmt="0">bo</cntry>	<cntry agelmt="0">br</cntry>	<cntry agelmt="0">ca</cntry>
+<cntry agelmt="0">ch</cntry>	<cntry agelmt="0">cl</cntry>	<cntry agelmt="0">cn</cntry>	<cntry agelmt="0">co</cntry>	<cntry agelmt="0">cr</cntry>
+<cntry agelmt="0">cy</cntry>	<cntry agelmt="0">cz</cntry>	<cntry agelmt="0">de</cntry>	<cntry agelmt="0">dk</cntry>	<cntry agelmt="0">ec</cntry>
+<cntry agelmt="0">es</cntry>	<cntry agelmt="0">fi</cntry>	<cntry agelmt="0">fr</cntry>	<cntry agelmt="0">gb</cntry>	<cntry agelmt="0">gr</cntry>
+<cntry agelmt="0">gt</cntry>	<cntry agelmt="0">hk</cntry>	<cntry agelmt="0">hn</cntry>	<cntry agelmt="0">hr</cntry>	<cntry agelmt="0">hu</cntry>
+<cntry agelmt="0">id</cntry>	<cntry agelmt="0">ie</cntry>	<cntry agelmt="0">il</cntry>	<cntry agelmt="0">in</cntry>	<cntry agelmt="0">is</cntry>
+<cntry agelmt="0">it</cntry>	<cntry agelmt="0">jp</cntry>	<cntry agelmt="0">kr</cntry>	<cntry agelmt="0">kw</cntry>	<cntry agelmt="0">lb</cntry>
+<cntry agelmt="0">lu</cntry>	<cntry agelmt="0">mt</cntry>	<cntry agelmt="0">mx</cntry>	<cntry agelmt="0">my</cntry>	<cntry agelmt="0">ni</cntry>
+<cntry agelmt="0">nl</cntry>	<cntry agelmt="0">no</cntry>	<cntry agelmt="0">nz</cntry>	<cntry agelmt="0">om</cntry>	<cntry agelmt="0">pa</cntry>
+<cntry agelmt="0">pe</cntry>	<cntry agelmt="0">ph</cntry>	<cntry agelmt="0">pl</cntry>	<cntry agelmt="0">pt</cntry>	<cntry agelmt="0">py</cntry>
+<cntry agelmt="0">qa</cntry>	<cntry agelmt="0">ro</cntry>	<cntry agelmt="0">rs</cntry>	<cntry agelmt="0">ru</cntry>	<cntry agelmt="0">sa</cntry>
+<cntry agelmt="0">se</cntry>	<cntry agelmt="0">sg</cntry>	<cntry agelmt="0">si</cntry>	<cntry agelmt="0">sk</cntry>	<cntry agelmt="0">sv</cntry>
+<cntry agelmt="0">th</cntry>	<cntry agelmt="0">tr</cntry>	<cntry agelmt="0">tw</cntry>	<cntry agelmt="0">ua</cntry>	<cntry agelmt="0">um</cntry>
+<cntry agelmt="0">us</cntry>	<cntry agelmt="0">uy</cntry>	<cntry agelmt="0">ve</cntry>	<cntry agelmt="0">za</cntry>	<cntry agelmt="0">pepe</cntry>
+-->
+
+<!-- Languages
+<lang>0</lang> Japonese
+<lang>1</lang> English
+<lang>2</lang> French
+<lang>3</lang> Espanish 
+<lang>4</lang> German
+<lang>5</lang> Italian
+<lang>6</lang> Dutch
+<lang>7</lang> Porguese 
+<lang>7</lang> Russian
+<lang>9</lang> Korean
+<lang>10</lang> Chinese T
+<lang>11</lang> Chinese S
+<lang>12</lang> Finish
+<lang>13</lang> Swedish
+<lang>14</lang> Danish
+<lang>15</lang> Norweigan
+<lang>16</lang> Polish
+<lang>17</lang> Portuguese BR
+<lang>18</lang> English GB
+<lang>19</lang> Turkish
+ -->
+ 
+<!-- Functions Examples
+
+unknown - sub-spc (works as normal), rtype, psns:browse?category=%s�u
+
+
+ <target type="u">psgm:play?id=NPJB00001+BLJM67001</target>
+<target type="u">psgm:play?id=BLES80608</target>
+<target type="u">psvp:play?url=http://mercury.dl.playstation.net/cdn/video/ALL/UV0001/NPVA01106_CN/XLe9bOD2uBdGtx31ZCsrKEHf5lpzc0.MP4</target>
+<target type="u">psvp:play?url=http://e1.dl.playstation.net/e1/whatsnew/TakeThat1.mov</target>
+<url type="3">http://nsx.e1-np.dl.playstation.net/fs/nsx/material/6/6f7c9c4c71e7f8dc5b1c9e482c957e8966b79a21-1164.gif</url>
+<target type="u">psns:browse?target=plus</target>
+<target type="c">PN.P3.US-PN.P3.GAME.US-NEWRELEASES</target>
+<target type="c">IV0003-NPXS09016_00--STORE</target>
+<target type="p">IV0003-NPXS09016_00-SWQATEST00000001</target>
+<target type="c">PN.P3.SG-PN.P3.VIDEO.SG-BASE</target>
+<target type="p">NSXWSV-PN.P3.QA-WHATSNEW00000001</target>
+<target type="p">IV0003-NPXS09016_00-SWQATEST00000001</target>
+<target type="u">psns:browse?top=game</target>
+<target type="p">IV0003-NPXS09016_00-SWQATEST00000001</target>
+<target type="p">EP9000-NPEA00057_00-PWIPEOUTHD000001</target>
+<target type="u">psns:mygame?type=playhistory</target>
+<target type="u">psgm:install?contentid=EP4350-NPEB00874_00-NETFLIXRIGEL01EU&amp;url=http%3A%2F%2Fares.dl.playstation.net%2Fcdn%2FEP4350%2FNPEB00874_00%2FYeDCODnsOqtUUAlRBRjFiSOvguIDgPaUSGxXRfwnhbVBKVDxvTLAxwSwbvZKtpBF.pkg</target>
+<target type="u">psgm:play?id=NPJB00766_00</target>
+<target type="u">psgm:play?id=NPIA00005&amp;arg=version%3D1%2E0%26scene%5Fname%3DJ%5FFS%5F3DDGH%5F1%5F181D%5F4365%26spawn%5Fid%3Dblah%26opt1%3D1%26opt2%3D%E6%97%A5%E6%9C%AC%E8%AA%9E</target>
+PS HOME
+<target type="u">psvp:play?url=http%3A%2F%2Fnsx.sec.mgmt.dl.playstation.net%2Ffs%2Fnsx%2Fmaterial%2F3%2F3e8be74b0aba042115378c59eb4a2b4f1a72942e-30479.mp4</target>
+&#xD; pular linha
+Video PS HOME
+<target type="u">psvp:play?url=http%3A%2F%2F122.220.2.164%2Ffs%2Fnsx%2Fmaterial%2F1%2F117c5c3f97c0a22ef314f9d658f9ef0343de6d78-1251.mp4</target>
+
+-->           
+</spc>
+</nsx>
