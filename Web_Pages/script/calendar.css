@@ -1,0 +1,33 @@
+.cal_calendar
+{
+        border:1px solid black;
+        padding:1px;
+        background-color:#4594ff;
+        width:300px;
+        margin:auto;
+        height:246px;
+        background-image:url('http://www.webestools.com/ftp/ybouane/scripts_tutorials/javascript/calendar/bak-300-250.gif');
+}
+.cal_calendar th
+{
+        border:1px solid black;
+        background-color:#ffffff;
+                width:36px;
+}
+.cal_calendar td
+{
+        border:1px solid black;
+        background-color:#ffffff;
+        text-align:center;
+                width:36px;
+                height:36px;
+}
+.cal_today
+{
+        color:#ff0000;
+                font-weight:bold;
+}
+.cal_days_bef_aft
+{
+        color:#5a779e;
+}
