@@ -76,3 +76,4 @@ function calendar()
         document.write('</tbody></table>');
         opacity(document.getElementById('cal_body'),70);
         return true;
+}
