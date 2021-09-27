@@ -1188,8 +1188,7 @@ Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
 </mtrl>
 
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
-<desc>Get the forecast for today, tonight &amp; tomorrow's weather.
-Bugün, bu gece ve yarının hava durumu tahminini alın.</desc>
+<desc>Bugün, bu gece ve yarının hava durumu tahminini alın.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
 <target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
