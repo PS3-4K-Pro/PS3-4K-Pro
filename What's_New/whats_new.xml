@@ -47,7 +47,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Enjoy your games at home and stay safe while on the COVID-19 pandemic.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
@@ -131,7 +131,7 @@ Everyone who donated to keep this project alive.</desc>
 <desc>Unofficial©Stores
 Support for custom stores are available now!</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
 <data name="unofficial_store.txt" type="120">RGlzY2xhaW1lciEKCi0gVGhpcyBhcHBsaWNhdGlvbiBhZGRzIHN1cHBvcnQgZm9yIFVub2ZmaWNpYWzCqVN0b3JlcywgdXNlIGl0IGF0IHlvdXIgb3duIHJpc2suCi0gVW5vZmZpY2lhbMKpU3RvcmVzIGFyZSBub3QgaW50ZW5kZWQgZm9yIHBpcmFjeSwgZG93bmxvYWQgb25seSB0aGUgZ2FtZXMgdGhhdCB5b3UgaGF2ZSBsZWdhbGx5IHB1cmNoYXNlZC4=</data>
 <target type="u">psgm:install?contentid=EP4443-NPEB02205_00-ABC0IVIEW0000000&amp;url=http://nopsn.com/pkg/ps3/abc/ABC-iView-v1.01-%5BNPEB02205%5D-NoPSN.pkg</target>
 <cntry agelmt="0">all</cntry>
@@ -192,7 +192,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Profitez de vos jeux à la maison et restez en sécurité pendant la pandémie COVID-19.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
@@ -326,7 +326,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Disfrute de sus juegos en casa y manténgase a salvo durante la pandemia de COVID-19.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
@@ -459,7 +459,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Genießen Sie Ihre Spiele zu Hause und bleiben Sie während der COVID-19-Pandemie gesund.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
@@ -592,7 +592,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Goditi i tuoi giochi stando a casa al sicuro durante la pandemia COVID-19.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
@@ -724,7 +724,7 @@ Clicca qui per scaricare.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Aproveite seus jogos em casa e fique seguro na pandemia de COVID-19.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
@@ -859,7 +859,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Играйте дома и оставайтесь в бесопасности во время пандемии COVID-19.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
@@ -991,7 +991,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>在家里享受你的游戏并在新冠疫情时注意安全.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
@@ -1124,7 +1124,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>COVID-19 salgınındayken oyunlarınızın keyfini evde çıkarın ve güvende kalın.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.png</url> 
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.sw</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/covid.swf</url>
 <target type="u">psgm:play?id=BLES80608</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
