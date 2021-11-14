@@ -22,6 +22,17 @@
 </mtrl>
 
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
+<desc>Sandro™Store 
+Adquira já a melhor loja! 
+Whatsapp: (81) 9759-7082.</desc>
+<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/sandro_store.png</url>
+<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/sandro_store.swf</url>
+<target type="u">https://github.com/LuanTeles/Stores/releases/download/Stores/Sandro_Store_-_Trailer.mp4</target>
+<cntry agelmt="0">all</cntry>
+<lang>7</lang><lang>17</lang>
+</mtrl>
+
+<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z" anno="picks=1">
 <desc>News and Updates will be displayed here as soon as they become available.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.jpg</url>
 <cntry agelmt="0">all</cntry>
@@ -807,16 +818,6 @@ Todos que doaram para manter este projeto vivo.</desc>
 <lang>7</lang><lang>17</lang>
 </mtrl>
 
-<mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
-<desc>Sandro™Store 
-Adquira já a melhor loja! 
-Whatsapp: (81) 9759-7082.</desc>
-<url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/sandro_store.png</url>
-<url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/sandro_store.swf</url>
-<target type="u">https://github.com/LuanTeles/Stores/releases/download/Stores/Sandro_Store_-_Trailer.mp4</target>
-<cntry agelmt="0">all</cntry>
-<lang>7</lang><lang>17</lang>
-</mtrl>
 
 <mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z">
 <desc>Uma nova versão está disponível: v5.X
