@@ -690,13 +690,14 @@ Clicca qui per scaricare.</desc>
 <lang>7</lang><lang>17</lang>
 </mtrl>
 
-<mtrl id="0" lastm="2000-09-12T15:10:00.000Z" until="2000-12-31T23:59:00.000Z" anno="picks=1">
+<!-- <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 <desc>Atualize seu PS3™ para PS4™.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/upgrade.jpg</url>
 <target type="u">psvp:play?url=http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/media/ads/rick_astley.mp4</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
+-->
 
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="picks=1">
 <desc>Notícias e atualizações serão exibidas aqui assim que estiverem disponíveis.</desc>
