@@ -39,7 +39,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Check the latest news about consoles on PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -56,7 +56,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Do you have a brand or product and want it to be promoted here?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -64,7 +64,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Enjoy your favorite music with online radio.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -72,7 +72,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Meet new people &amp; make new friends using the online chat feature.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -80,7 +80,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Join us on the Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -88,7 +88,7 @@
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Support: If you like my work, please consider making a small donation!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -97,7 +97,7 @@
 <desc>Pro Members!
 Everyone who donated to keep this project alive.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -105,7 +105,7 @@ Everyone who donated to keep this project alive.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Check out the breaking headlines and news of the moment and around the world.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -113,7 +113,7 @@ Everyone who donated to keep this project alive.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Get the forecast for today, tonight &amp; tomorrow's weather.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -122,7 +122,7 @@ Everyone who donated to keep this project alive.</desc>
 <desc>Current local time.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>0</lang><lang>1</lang><lang>6</lang><lang>9</lang><lang>10</lang><lang>12</lang><lang>13</lang><lang>14</lang><lang>15</lang><lang>16</lang><lang>18</lang>
 </mtrl>
@@ -184,7 +184,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Si vous pouvez aider à le traduire, visitez PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -201,7 +201,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Avez-vous une marque ou un produit et souhaitez-vous en faire la promotion ici?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -209,7 +209,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Profitez de votre musique préférée avec la radio en ligne.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -217,7 +217,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Rencontrez de nouvelles personnes et faites-vous de nouveaux amis en utilisant la fonction de chat en ligne.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -225,7 +225,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Rejoignez-nous sur Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -233,7 +233,7 @@ Click here to download.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Soutien: Si vous aimez mon travail, pensez à faire un petit don!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -242,7 +242,7 @@ Click here to download.</desc>
 <desc>Membres Pro!
 Tous ceux qui ont fait un don pour maintenir ce projet en vie.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -250,7 +250,7 @@ Tous ceux qui ont fait un don pour maintenir ce projet en vie.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Découvrez les gros titres et les actualités du moment et dans le monde.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -258,7 +258,7 @@ Tous ceux qui ont fait un don pour maintenir ce projet en vie.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Obtenez les prévisions météo pour aujourd'hui, ce soir et demain.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -267,7 +267,7 @@ Tous ceux qui ont fait un don pour maintenir ce projet en vie.</desc>
 <desc>Heure locale actuelle.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>2</lang>
 </mtrl>
@@ -318,7 +318,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Si puede ayudar a traducirlo, visite PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -335,7 +335,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>¿Tienes una marca o producto y quieres que se promocione aquí?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -343,7 +343,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Disfrute de su música favorita con la radio en línea.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -351,7 +351,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Conoce gente nueva & amp; haz nuevos amigos usando la función de chat en línea.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -359,7 +359,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Únete a nosotros en Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -367,7 +367,7 @@ Cliquez ici pour télécharger.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Apoyo: Si te gusta mi trabajo, ¡considera hacer una pequeña donación !.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -376,7 +376,7 @@ Cliquez ici pour télécharger.</desc>
 <desc>¡Miembros Pro!
 Todos los que donaron para mantener vivo este proyecto.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -384,7 +384,7 @@ Todos los que donaron para mantener vivo este proyecto.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Consulta los titulares de última hora y las noticias del momento y de todo el mundo.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -392,7 +392,7 @@ Todos los que donaron para mantener vivo este proyecto.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Obtenga el pronóstico para hoy, esta noche & amp; el tiempo de mañana.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -401,7 +401,7 @@ Todos los que donaron para mantener vivo este proyecto.</desc>
 <desc>Hora local actual.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>3</lang>
 </mtrl>
@@ -451,7 +451,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Wenn Sie bei der Übersetzung helfen können, besuchen Sie uns auf PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -468,7 +468,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Haben Sie eine Marke oder ein Produkt und möchten, dass es hier beworben wird?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -476,7 +476,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Genießen Sie Ihre Lieblingsmusik mit dem Online-Radio.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -484,7 +484,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Lerne neue Leute kennen und nutze die Online-Chat-Funktion mit deinen Freunden in Kontakt zu bleiben. </desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -492,7 +492,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Begleiten Sie uns auf Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -500,7 +500,7 @@ Haga click aquí para descargar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Support: Wenn Ihnen unsere Arbeit gefällt, machen Sie bitte eine kleine Spende!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -509,7 +509,7 @@ Haga click aquí para descargar.</desc>
 <desc>Ein Danke an alle Pro Mitglieder!
 An alle, die gespendet haben, um dieses Projekt am Leben zu erhalten ein großes Dankeschön.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -517,7 +517,7 @@ An alle, die gespendet haben, um dieses Projekt am Leben zu erhalten ein großes
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Schauen Sie sich die aktuellen Schlagzeilen und Nachrichten auf der ganzen Welt an.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -525,7 +525,7 @@ An alle, die gespendet haben, um dieses Projekt am Leben zu erhalten ein großes
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Holen Sie sich die Wetterprognosen für heute und das Wetter von morgen.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -534,7 +534,7 @@ An alle, die gespendet haben, um dieses Projekt am Leben zu erhalten ein großes
 <desc>Aktuelle Ortszeit:</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>4</lang>
 </mtrl>
@@ -584,7 +584,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Se puoi aiutare a tradurre, visita PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -601,7 +601,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Hai un marchio o un prodotto e vuoi che venga promosso qui?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -609,7 +609,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Goditi la tua musica preferita con la radio online.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -617,7 +617,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Incontra nuove persone e fai nuove amicizie utilizzando la funzione di chat online.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -625,7 +625,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Unisciti a noi su Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -633,7 +633,7 @@ Klicke hier um es herunterzuladen.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Supporto: Se ti piace il mio lavoro, considera di fare una piccola donazione !</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -642,7 +642,7 @@ Klicke hier um es herunterzuladen.</desc>
 <desc>Membri Pro!
 Tutti coloro che hanno donato per mantenere vivo questo progetto.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/htutto_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -650,7 +650,7 @@ Tutti coloro che hanno donato per mantenere vivo questo progetto.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Dai un'occhiata ai titoli e alle notizie mondiali più recenti del momento.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -658,7 +658,7 @@ Tutti coloro che hanno donato per mantenere vivo questo progetto.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Ottieni le previsioni per oggi, stasera e il tempo di domani.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -667,7 +667,7 @@ Tutti coloro che hanno donato per mantenere vivo questo progetto.</desc>
 <desc>Ora locale attuale.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>5</lang>
 </mtrl>
@@ -728,7 +728,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z" anno="channel=1">
 <desc>Confira as últimas notícias sobre consoles na PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -745,7 +745,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Você tem uma marca ou produto e quer ser promovido aqui?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -753,7 +753,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Desfrute da sua música favorita com o rádio online.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -761,7 +761,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Conheça novas pessoas &amp; faça novos amigos usando o recurso de bate-papo online.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -769,7 +769,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Junte-se a nós no Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram_portuguese.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram_portuguese.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -778,7 +778,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Se você gosta do meu trabalho, considere fazer uma pequena doação via PicPay!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate_portuguese.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate_portuguese.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -787,7 +787,7 @@ Whatsapp: (81) 9759-7082.</desc>
 <desc>Membros Pro! 
 Todos que doaram para manter este projeto vivo.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -795,7 +795,7 @@ Todos que doaram para manter este projeto vivo.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Confira as principais manchetes e notícias do momento e do mundo.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -804,7 +804,7 @@ Todos que doaram para manter este projeto vivo.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Obtenha a previsão do tempo para hoje, à noite &amp; amanhã.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -814,7 +814,7 @@ Todos que doaram para manter este projeto vivo.</desc>
 <desc>Hora local atual.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock_pt.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>7</lang><lang>17</lang>
 </mtrl>
@@ -864,7 +864,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Решили помочь с переводом, посетите сайт "psx-place.com".</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -881,7 +881,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>У Вас есть бренд или продукт, который Вы хотите продвигать здесь?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -889,7 +889,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Наслаждайтесь любимой музыкой с помощью онлайн радио.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -897,7 +897,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Знакомьтесь и заводите новых друзей в онлайн чате PS3™ 4K Pro.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -905,7 +905,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Присоединяйтесь к нам в Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -913,7 +913,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Хотите поддержать развитие проекта PS3™ 4K Pro?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -921,7 +921,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Всё о тех кто поддержал развитие проекта.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -929,7 +929,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Мировые новости.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -937,7 +937,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Погода.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -946,7 +946,7 @@ Clique aqui para baixar.</desc>
 <desc>Местное время.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>8</lang>
 </mtrl>
@@ -996,7 +996,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>如果你能帮忙翻译,请前往PSX-PLACE.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1013,7 +1013,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>你有品牌或产品想在这里推广吗?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1021,7 +1021,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>使用在线电台收听你喜欢的音乐.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1029,7 +1029,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>使用在线聊天功能 &amp; 结交新朋友.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1037,7 +1037,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>加入我们的Telegram.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1045,7 +1045,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>支持: 如果你喜欢我的项目, 请考虑捐点儿款吧!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1054,7 +1054,7 @@ Clique aqui para baixar.</desc>
 <desc>专业版成员!
 所有捐款保证这个项目存在的人.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1062,7 +1062,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>查看现在世界各地的头条新闻.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1070,7 +1070,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>获取今天, 今晚 &amp; 明天的天气预报.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1079,7 +1079,7 @@ Clique aqui para baixar.</desc>
 <desc>当前的本地时间.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>11</lang>
 </mtrl>
@@ -1129,7 +1129,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Eğer çeviriye yardım etmek istiyorsan PSX-PLACE.com'u ziyaret et.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/psx-place.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/psx-place.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/psx-place.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1146,7 +1146,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Markanızın veya ürününüzün burada tanıtılmasını ister misiniz?</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/ads.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/contact.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/contact.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1154,7 +1154,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Çevrimiçi rasyo ile favori müziklerinizin keyfini çıkarın.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/radio.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/radio.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/radio.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1162,7 +1162,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Çevrimiçi sohbet özelliği ile yeni insanlarla tanışın ve arkadaşlar edinin.</desc>
 <url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/chat.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/chat.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/chat.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1170,7 +1170,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Telegram'da bize katılın..</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/telegram.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/telegram.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/telegram.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1178,7 +1178,7 @@ Clique aqui para baixar.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Destekleyin: Eğer çalışmamı beğendiyseniz, lütfen küçük bir bağış yapmayı ihmal etmeyin!.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/donation.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/donate.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/donate.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1187,7 +1187,7 @@ Clique aqui para baixar.</desc>
 <desc>Ayrıcalıklı Üyeler:
 Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/hall_of_fame.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/members.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/members.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1195,7 +1195,7 @@ Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Anında dünyanın dört bir yanındaki son dakika haberlere göz atın.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/news.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/breaking_news.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/breaking_news.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1203,7 +1203,7 @@ Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
 <mtrl id="0" lastm="2100-09-12T15:10:00.000Z" until="2100-12-31T23:59:00.000Z">
 <desc>Bugün, bu gece ve yarının hava durumu tahminini alın.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/weather.png</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/weather_forecast.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/weather_forecast.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
@@ -1212,7 +1212,7 @@ Bu projeyi yaşatmak için bağış yapan herkes burada gösterilir.</desc>
 <desc>Şimdiki yerel saati gösterir.</desc>
 <url type="1">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.png</url>
 <url type="73">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/What's_New/media/ads/clock.swf</url>
-<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/What's_New/pages/world_time_server.html</target>
+<target type="u">http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/world_time_server.html</target>
 <cntry agelmt="0">all</cntry>
 <lang>19</lang>
 </mtrl>
