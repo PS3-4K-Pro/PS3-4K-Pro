@@ -7,9 +7,6 @@
    <script>
       javascript:window.resizeTo(1826,1026)
    </script>
-   <script>
-      document.getElementById("start_url").setAttribute("value", getDefaultValue("start_url", "http://"));
-   </script>
    <body onload="changeScreenSize()">
       <style>
          body { background-image:url("http://raw.githubusercontent.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/media/remote_controller.png");
@@ -50,49 +47,6 @@
       <br>
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <script>
-         function accessfunction(data)
-         {
-         	document.getElementById("accessFunctionText").innerHTML = data + document.getElementById("accessFunctionText").innerHTML;
-         }
-          
-         
-         function goTo(URL)
-         {
-             document.cookie="start_url=" + URL;
-         	window.location.href = URL;
-         }
-         
-         
-         function getDefaultValue(key, def_value)
-         {
-             var c = key + "=";
-             var cookies = document.cookie.split(';');
-         
-             for(var i = 0; i < cookies.length; i++)
-             {
-                 while(cookies[i].charAt(0)==' ') cookies[i]=cookies[i].substring(1);
-                 if(cookies[i].indexOf(c) != -1) return cookies[i].substring(c.length,cookies[i].length);
-             }	
-         
-             return def_value;
-         }
-      </script>
-      <div id="ip_adress" align="center">
-   </body>
-   <body onload=initPage() >
-   <form>
-   <span id="firstStart"></span><br>
-   <input id="start_url" type="text" name="url" size="80"/> 
-   <input type="Button" class="btnStyle" value="->" onclick="goTo(form.url.value)"/><br>
-   </form>
-   <p id="accessFunctionText"></p>
-   </body>
-   </div>
    <div style="button-position: border-box; width: 1620px; height: 50px; text-align: center; padding-right: 50px;">
       <a href="http://raw.githack.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/remote_controller_tutorial.html">
       <button style="background: #d600ff; border-radius: 16px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Instructions</button></a>
