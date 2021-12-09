@@ -1,6 +1,5 @@
 <!-- Coded for PS3™ 4K Pro by Luan Teles -->
 
-
 <html>
    <head>
       <title>PlayStation® Plugins</title>
@@ -8,21 +7,31 @@
    <script>
       javascript:window.resizeTo(screen.width,screen.height)
    </script>
-   <style>
-      body { background-image:url("http://raw.githubusercontent.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/media/active_plugins.png");
-      background-size: 100% auto; 
-      background-attachment: scroll;
-      margin-top: 3%; 
-      margin-left: 8%; 
-      margin-right: 8%; 
-      marginbottom: 8%;}
-      body {background-color:#000000;}
-      body {color:white;}
-      }
-   </style>
-   <div class="container">
-		<div class="center">
-			<iframe width="300px" height="115px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
-		</div>
-	</div>
+   <body>
+      <style>
+         body { background-image:url("http://raw.githubusercontent.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/media/active_plugins.png");
+         background-size: 100% auto;
+         background-attachment: scroll; 
+         margin-top: 3%; 
+         margin-left: 8%; 
+         margin-right: 8%; 
+         marginbottom: 8%;
+         body {background-color:#000000;}
+         body {color:white;}
+         }
+         .center {
+         margin: 0;
+         position: absolute;
+         top: 35%;
+         left: 43%;
+         -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+         }
+      </style>
+      <div class="container">
+         <div class="center">
+            <iframe width="300px" height="115px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
+         </div>
+      </div>
+   </body>
 </html>
