@@ -1,5 +1,4 @@
 <!-- Coded for PS3™ 4K Pro by Luan Teles -->
-
 <html lang="en" >
    <head>
       <title>PlayStation® Plugins</title>
@@ -22,32 +21,37 @@
       margin: 0;
       position: absolute;
       top: 35%;
-      left: 43%;
+      left: 27%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       }
-	  
-	  .wrap {
-    width: 640px;
-    height: 480px;
-    overflow: hidden;
-}
-
-iframe {
-    width: 76.92% !important;
-    height: 76.92% !important;
-    -webkit-transform: scale(1.8);
-    transform: scale(1.8);
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-}
+      .wrap {
+      width: 335px;
+      height: 180px;
+      overflow: hidden;
+      }
+      iframe {
+      -webkit-transform: scale(3);
+      transform: scale(3);
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+      }
    </style>
    <body>
       <div class="container">
-      <div class="center">
-            <iframe class="wrap" width="500px" height="70px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
+         <div class="center">
+            <iframe class="wrap" id="myFrame" width="600px" height="10px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
          </div>
       </div>
    </body>
-   -->
+   <script>
+      var frame = document.getElementById('myFrame');
+          frame.onload = function () {
+              var body = frame.contentWindow.document.querySelector('body');
+              body.style.color = 'black';
+      		body.style.fontWeight = 'bold'
+            <!--  body.style.fontSize = '20px'; -->
+            <!-- body.style.lineHeight = '20px'; -->
+          };
+   </script>
 </html>
