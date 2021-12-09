@@ -24,6 +24,6 @@ body {
 .maindiv {
   width: 500px;
   height: 600px;
-  background: red;
+  background: white;
   transform-origin:0% 0%;
 }
