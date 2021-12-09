@@ -1,5 +1,5 @@
 body {
-  background-color: #a3d5d3;
+  background-color: #ffffff;
 }
 
 .zoom-header {
@@ -13,7 +13,7 @@ body {
 .main-container {
   width: 500px;
   height: 600px;
-  background: blue;
+  background: white;
   overflow: auto;
 }
 .zoomout {
