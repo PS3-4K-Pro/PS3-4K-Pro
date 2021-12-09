@@ -2,7 +2,7 @@
 let zoomArr = [0.5,0.75,0.85,0.9,1,1.2,1.5];
 
 
-var element = document.querySelector('.container');
+var element = document.querySelector('.boot_plugins');
 let value = element.getBoundingClientRect().width / element.offsetWidth;
 
 let indexofArr = 4;

@@ -21,7 +21,7 @@ body {
   z-index: 1000;
 }
 
-.container {
+.boot_plugins {
   width: 500px;
   height: 600px;
   background: red;
