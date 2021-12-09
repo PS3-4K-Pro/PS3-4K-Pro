@@ -1,0 +1,56 @@
+<!-- Coded for PS3™ 4K Pro by Luan Teles -->
+
+<html lang="en" >
+   <head>
+      <title>PlayStation® Plugins</title>
+   </head>
+   <link rel="stylesheet" href="./script/zoom.css">
+   <script>
+      javascript:window.resizeTo(screen.width,screen.height)
+   </script>
+   <style>
+      body { background-image:url("http://raw.githubusercontent.com/LuanTeles/PS3-4K-Pro/main/Web_Pages/media/active_plugins.png");
+      background-size: 100% auto;
+      background-attachment: scroll; 
+      margin-top: 3%; 
+      margin-left: 8%; 
+      margin-right: 8%; 
+      marginbottom: 8%;
+      body {background-color:#000000;}
+      body {color:white;}
+      }
+      .center {
+      margin: 0;
+      position: absolute;
+      top: 35%;
+      left: 43%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      }
+   </style>
+   <body>
+      <div class="container">
+      <div class="center">
+         <div class="zoom-header">
+            <button class="zoomin">zoom in </button>
+            <select id="sel" class="select" onchange="handleChange()">
+               <option value=0.5>50%</option>
+               <option value=0.75>75%</option>
+               <option value=0.85>85%</option>
+               <option value=0.9>90%</option>
+               <option value=1 selected>100%</option>
+               <option value=1.2>120%</option>
+               <option value=1.5>150%</option>
+               <option value=1>reset</option>
+            </select>
+            <button class="zoomout"> zoom out</button>
+         </div>
+         <div class="main-container">
+           <div  class="maindiv">
+    asdas adsasda asdadss
+  </div>
+         </div>
+      </div>
+      <script src="./script/zoom.js"></script>
+   </body>
+</html>
