@@ -28,7 +28,11 @@
          transform: translate(-50%, -50%);
          }
       </style>
-      <div class="zoom-header">
+     
+      <div class="main">
+	  
+         <div class="center">
+		  <div class="zoom-header">
          <button class="zoomin">zoom in </button>
          <select id="sel" class="select" onchange="handleChange()">
             <option value=0.5>50%</option>
@@ -42,9 +46,7 @@
          </select>
          <button class="zoomout"> zoom out</button>
       </div>
-      <div class="container">
-         <div class="center">
-            <iframe width="300px" height="115px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
+            <iframe class="container" width="300px" height="115px" src="http://localhost/dev_hdd0/boot_plugins.txt"></iframe>
          </div>
       </div>
 	   <script src="http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Web_Pages/script/zoom.js"></script>
