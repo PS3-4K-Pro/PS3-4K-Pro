@@ -1,463 +1,0 @@
-<!-- Coded for PS3™ 4K Pro by Luan Teles -->
-
-<nsx ver="1.0" rev="571" lt-id="131" anno="" min-sys-ver="">
-	<spc id="33537" rep="t" multi="o" anno="">
-		<mtrl id="1080424898" mname="Playstation Game Store Default Banner A" from="2008-01-01T00:00:00.000Z" until="2108-01-01T00:00:00.000Z" lastm="2015-06-09T01:56:15.000Z" anno="picks=1">
-			<desc>Playstation®Store Pro</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/playstation_game_store.png</url>
-			<target type="u">psgm:install?contentid=UP0001-NP00PKGI3_00-0000000000000000&amp;url=http://github.com/LuanTeles/Stores/releases/download/Stores/PKGi.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		
-	<!-- Current Games -->
-		<mtrl id="1080778886" mname="Item 35" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Grand Theft Auto V - NPUB31154 - 17.2 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/gta_v.png</url>
-			<target type="u">psgm:install?contentid=UP1004-NPUB31154_00-GTAVDIGITALDOWNL&amp;url=http://zeus.dl.playstation.net/cdn/UP1004/NPUB31154_00/eISFknCNDxqSsVVywSenkJdhzOIfZjrqKHcuGBHEGvUxQJksdPvRNYbIyWcxFsvH.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		<mtrl id="1080778886" mname="Item 8" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>God of War Ascension - NPUA80918 - 34.02 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/god_of_war-ascension.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80918_00-GOWADIGITALVERS1&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80918_00/CeOvzDdDsBlXxMLySmhFiqvweBfKTKFUrKsZUjHNojmbkNKpjHetAQykAclglBSM.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		<mtrl id="1080778886" mname="Item 7" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>The Last of Us - NPUA80960 - 136.49 Mb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/the_last_of_us.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80960_00-THELASTOFUSDIG01&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80960_00/kXLfyOhGFLCBFKeHDopmqkCrYKbIQIAVEBkdtiNpzIyBRebMQCkGigjAGbdyAzNCHjKITHlMLKjOZHLzNebUYyOkJkQMhFMttvVuO.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		<mtrl id="1080778886" mname="Item 16" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Dark Souls 2: Scholar of the First Sin - NPUB31666 - 6.19 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/dark_souls_2_sholar_of_the_first_sin.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB31666_00-DARKSOULS2000002&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB31666_00/UP0700-NPUB31666_00-DARKSOULS2000002_bg_1_13b86fa2785dc417c6d1baed78b611c3979fd1b8.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		<mtrl id="1080778886" mname="Item 12" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Battlefield 4 - NPUB31148 - 9.92 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/battlefield_4.png</url>
-			<target type="u">psgm:install?contentid=UP0006-NPUB31148_00-BATTLEFIELD40000&amp;url=http://zeus.dl.playstation.net/cdn/UP0006/NPUB31148_00/gnsgoUCSIRPndWlAAOfdWpeiiaIockZJrXVzdBTJPKFEpHtunBpHGoPHXRqRYSuB.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		
-<!-- Jogos Semana 1 -->
-
-		<mtrl id="1080778886" mname="Item 1" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty Advanced Warfare - NPUB31553 - 13.6 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_advanced_warfare.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31553_00-CODAW00000000000&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31553_00/RAoycNjnbHMtAkrCtACnECoRosemCRhAnSWsKqLrJwBUehZwjaXABdRPBUQIUcGn.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 2" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty Black Ops 2 - NPUB31054 - 12.8 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_black_ops_2.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31054_00-CODBLACKOPS2DL00&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31054_00/cfCDkdmrDyOQyorvrlNcWZSSnVmGDvrYOZHxiDiqgLcejGFUKwcvDdhNITTClAoZ.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 3" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Destiny - NPUB31202 - 7.4 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/destiny.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31202_00-DESTINYTHEGAME01&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31202_00/lwWtKeVHTHhDVIfjSqRywrsUyFttzSgRyoJrPPPmApLoFWWrcFuRFQZFrLRCcavkIXIKimaWDMrgWRoRVJHAOvImDVjcWcpDMxgKd.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 4" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>LEGO Marvel Super Heroes - NPUB31236 - 7.5 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/lego_marvel_super_heros.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31236_00-LEGOMARVELSUPER1&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31236_00/ZXTDJbyYKcOLdlqnzsgtqawzWdouxgvtQTuRzcgONgdDcLydeBVUahfjUiJooMan.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 5" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty Ghosts - NPUB31301 - 10.91 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_ghosts.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31301_00-CALLOFDUTYGHOSTS&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31301_00/nRYUEiGMNjPBpTKFUclrlIzIUFrdvZOpLmZMoqZFVbqJbJZUtQRHtozdwqscRCOxBxNpRFXjCdkWxaRsqPYgejnWYZGxBEmVrIfZh.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 6" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty Black Ops - NPUB30584 - 17.79 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_black_ops.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB30584_00-CODBLOPSFULLDL00&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB30584_00/flrULpWnBbsktvenaJaTTrGCgyKsxpwJiooqOIpYTjWsHRanejPGOpXmefQbTAVwAimwzuqQttythjHgdpBvzMYXnDfGEJJOXIHnI.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 7" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>The Last of US - NPUA80960 - 136.49 Mb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/the_last_of_us.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80960_00-THELASTOFUSDIG01&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80960_00/kXLfyOhGFLCBFKeHDopmqkCrYKbIQIAVEBkdtiNpzIyBRebMQCkGigjAGbdyAzNCHjKITHlMLKjOZHLzNebUYyOkJkQMhFMttvVuO.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 8" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>God of War Ascension - NPUA80918 - 34.02 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/god_of_war-ascension.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80918_00-GOWADIGITALVERS1&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80918_00/CeOvzDdDsBlXxMLySmhFiqvweBfKTKFUrKsZUjHNojmbkNKpjHetAQykAclglBSM.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 9" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>One Piece Pirate Warriors - NPUB30836 - 10.8 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/one_piece_pirate_warriors.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB30836_00-ONEPIECEPWHDDPKG&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB30836_00/IkaqgGhnrQCvPqlCVROOWDKCNniBjEnELKlYoDpXJjHnvQmhpvlbSZpgULoyQfVB.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 10" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>One Piece Pirate Warriors 2 - NPUB31295 - 7.83 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/one_piece_pirate_warrios_2.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB31295_00-OP2NAXXXXXHDDPKG&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB31295_00/OpmPMCYYVlpDMSbRlnYwGlMJrKgmGbxpmLorCXvzeDzstlxneFptkShOhXwumfoj.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 11" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>One Piece Pirate Warriors 3 - NPUB31676 - 14.04 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/one_piece_pirate_warriors_3.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB31676_00-PROJECTOP3NA0000&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB31676_00/UP0700-NPUB31676_00-PROJECTOP3NA0000_bg_1_70423163a8e27716f5eb73a277f30053fc7a1803.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 12" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Battlefield 4 - NPUB31148 - 9.92 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/battlefield_4.png</url>
-			<target type="u">psgm:install?contentid=UP0006-NPUB31148_00-BATTLEFIELD40000&amp;url=http://zeus.dl.playstation.net/cdn/UP0006/NPUB31148_00/gnsgoUCSIRPndWlAAOfdWpeiiaIockZJrXVzdBTJPKFEpHtunBpHGoPHXRqRYSuB.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 13" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Midnight Club Complete Edition - NPUB30471 - 5.03 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/midnigth_club_complete_edition.png</url>
-			<target type="u">psgm:install?contentid=UP1004-NPUB30471_00-0000000100000001&amp;url=http://zeus.dl.playstation.net/cdn/UP1004/NPUB30471_00/UohqJcPecEqnvdVnDCjxalIETeCDSVtIcuMPiayMpwmbbSkPZVJOeksIqOTJQOKrzCSykyxTJKmPouXxfoZMwQbhdazwJmJqwPHuT.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 14" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>GRID Autosport - NPUB31527 - 7.3 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/grid_autosport.png</url>
-			<target type="u">psgm:install?contentid=UP4001-NPUB31527_00-000GRIDAUTOSPORT&amp;url=http://zeus.dl.playstation.net/cdn/UP4001/NPUB31527_00/kbeSgeHdwPeJoLSVTUEHheLttBvGeTlqsBVxynxOMbUQyKsJpoztXZRTfDwGGNUVFsSfNlpAIigKGsSHimOURAcmCQlVsOsdQBuKw.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 15" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>DmC: Devil may Cry - NPUB30830 - 6.51 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/dmc_devil_may_cry.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30830_00-DMCDEVILMAYCRY01&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30830_00/SNxkwpOacYsNilMcxKWiAfxApFEKGLtteuxZnpranZTqzbosxtCLJAzZIXiOWHyR.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 16" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Dark Souls 2: Scholar of the First Sin - NPUB31666 - 6.19 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/dark_souls_2_sholar_of_the_first_sin.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB31666_00-DARKSOULS2000002&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB31666_00/UP0700-NPUB31666_00-DARKSOULS2000002_bg_1_13b86fa2785dc417c6d1baed78b611c3979fd1b8.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 17" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>InfamoUS 2 - NPUA80638 - 14.04 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/infamous_2.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80638_00-TRIALSHP06111244&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80638_00/gMxSOPbAdDfSFZAaZTjNIfBmsudlfqPBmumpwEqnbHYExdlkeXPxHxsAzSZwEqVuKiSLQemfittEXmXaIqRwPQWtjjLwmawBtehUW.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 18" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Assasin's Creed 4: Black Flag - NPUB31246 - 9.77 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/assassins_creed_4_blag_flag.png</url>
-			<target type="u">psgm:install?contentid=UP0001-NPUB31246_00-AC4DIGITALPS3001&amp;url=http://zeus.dl.playstation.net/cdn/UP0001/NPUB31246_00/clXUUqyLBWghRVzZdqJIaWZftzClZLVDaXEZGdoWtvaICRpKTqEGzVqyTQqPsRKu.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 19" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>J-STARS Victory VS - NPUB31647 - 3.45 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/j_stars_victory_vs.png</url>
-			<target type="u">psgm:install?contentid=UP0700-NPUB31647_00-WJ45JSVVSPS30000&amp;url=http://zeus.dl.playstation.net/cdn/UP0700/NPUB31647_00/UP0700-NPUB31647_00-WJ45JSVVSPS30000_bg_1_9a43d977369718031ecbded3a2014c878fbe524b.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 20" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>The Amazing Spider-Man 2 - NPUB31351 - 6.2 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/the_amazing_spider_man_2.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31351_00-HDDASM2014000000&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31351_00/REhtahWZPNuxKGKupVmRsSUgWVILRFZAqxJjHkHLAFkIEFRdEpBHWunhpIuISSVU.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 21" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Diablo III - NPUB31299 - 8.56 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/diablo_3.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB31299_00-DIABLO3DIGITAL00&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB31299_00/DIAXtftihzTBrbiOIeaNGFjUQEBoIIHtiXdUJIXtKVxFMdxNbgxuQSHrdlemtSQw.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 22" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil 4 HD - NPUB30312 - 3.25 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_4.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30312_00-CONTENT0000DLPKG&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30312_00/CSIkFNzjvhaZJlMYvXUkmAiNmAwVYNBPAGRYZeoMdRtCQdRLRmrKtgbalIWXBHvLMZXrsZmYbfMZvwBRUfopkgyPhyatgRrjYmWjk.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 23" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil 5 Gold Edition - NPUB30564 - 7.36 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_5_gold_edition.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30564_00-HDDBOOT0100A0100&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30564_00/PPsInONjvnkkOXnXXCfXORcvwkLxmAHyVipcmOkeyWUTMZWLGJGcGhzfwXWhvGGoufBiyIwiwPUCFoIhnxAHeSRnciVINvneoMKNq.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 24" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil 6 - NPUB30984 - 9.84 Gb</desc>
-			<url type="2"></url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30984_00-XOVER00000000000&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30984_00/bSKEPPJKwsiXkEyJRLzOHSdmsPRsmaMuzTGuywgIcYZRejZgkQLujUakWdmAbAke.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 25" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations - NPUB30991 - 11.27 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30991_00-HDDBOOTBHRUE0001&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30991_00/OebvMqYmHBpIpWvXxLSNhJxvAEAzDkevyqcgfKtTYxExXcuHtQKBNvnhsZFbshCu.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 26" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Mortal Kombat - NPUB30668 - 9.76 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/mortal_kombat.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB30668_00-MK9HDDCONVERSION&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB30668_00/vnjdiwwyNaCpVXNccVKqrwqCqvmlZBamBaxtQmmmcHvbIBtSHKrvhuceDFLzpbCzEAjglFGrmlXpcQrKeXsLGKQzWLDefdEqxeyGs.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 27" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>LEGO Jurassic World - NPUB31643 - 5.77 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/lego_jurassic_world.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31643_00-LEGOJW0000000001&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31643_00/UP1018-NPUB31643_00-LEGOJW0000000001_bg_1_fcfeb2c9468e4151201a519f4e554c4fd7a9945d.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 28" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Middle-Earth: Shadow of Mordor - NPUB31436 - 7.61 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/middle_earth_shadow_of_mordor.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31436_00-SHADOWOFMORDOR01&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31436_00/IybHRrLKoGgmRtASUoSKbXAGpBlZFroqrGudMHTuZTcHHMmdSBLNKBJJUIWzHjCaFxihYyhlCtoSsHfGTpYGGaLRbaHIGoebQmhRi.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 29" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>LEGO The Hobbit - NPUB31429 - 8.05 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/lego_the_hobbit.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31429_00-LEGOHOBBIT000000&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31429_00/zMpIWhnFAfAjIrbTClDZDyAywooYXljhBXVrouTzCBwVtGBExSyrNBKgsdOEFwhI.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 30" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Beyond Two Souls - NPUA81087 - 24.98 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/beyond_two_souls.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA81087_00-GBEYONDTWO000001&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA81087_00/FViZXlGFfPRaltxJSvLHBHPFwctOgQoglGEQkYDxORbGOAZLLeQxBSiCupOOtfLk.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 31" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Record of Agarest War Zero - NPUB30776 - 13.72 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/record_of_agarest_war_zero.png</url>
-			<target type="u">psgm:install?contentid=UP1024-NPUB30776_00-HDDGAME000000001&amp;url=http://zeus.dl.playstation.net/cdn/UP1024/NPUB30776_00/yUFrsXPIAAOlzeyeyaxRVsGbWistAzLeVJNWoJURsyBrnnzILBjYDwHopOxnwyPuNzmsmknvaPxVbzkFxRFDDXGfwXHBDmPYXLnMv.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 32" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Shaun White Skateboarding - NPUB31269 - 4.74 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/shaun_white_snowboarding.png</url>
-			<target type="u">psgm:install?contentid=UP0001-NPUB31269_00-SWSKATPS3REMPKG1&amp;url=http://zeus.dl.playstation.net/cdn/UP0001/NPUB31269_00/KtCtWmrFzdUGZoYGqwMtYdxRfZuGzdjJqnRzlsSpeVddnYQczPlGxaHSNCBDpVWc.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 33" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>PlayStation All-Stars Battle Royale - NPUA80316 - 5.84 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/playstation_all_stars_battle_royale.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80316_00-PSABATROYL000001&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80316_00/KExUTHpUOOnTCCRHhNkzDAhVrcQwXpAhFfDZTZCBcaGdwAzkpTcZDvKIOdsXRjPBkuyVWjeOvnsTTVIYShvMmnSZZCMDrCcsEWwWU.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 34" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Pro Evolution Soccer 2017 - NPUB31837 - 7.35 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/pro_evolution_soccer_2017.png</url>
-			<target type="u">psgm:install?contentid=UP0101-NPUB31837_00-PES2017000000000&amp;url=http://zeus.dl.playstation.net/cdn/UP0101/NPUB31837_00/UP0101-NPUB31837_00-PES2017000000000_bg_1_c265537e4e91cf72adb5d42a101d2a182562b733.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 35" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Grand Theft Auto V - NPUB31154 - 17.2 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/grand_theft_auto_v.png</url>
-			<target type="u">psgm:install?contentid=UP1004-NPUB31154_00-GTAVDIGITALDOWNL&amp;url=http://zeus.dl.playstation.net/cdn/UP1004/NPUB31154_00/eISFknCNDxqSsVVywSenkJdhzOIfZjrqKHcuGBHEGvUxQJksdPvRNYbIyWcxFsvH.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 36" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>WWE 2k15 - NPUB31546 - 12.96 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/wwe_2k15.png</url>
-			<target type="u">psgm:install?contentid=UP1001-NPUB31546_00-WWE2K15DIGITAL01&amp;url=http://zeus.dl.playstation.net/cdn/UP1001/NPUB31546_00/ryoOkuVKvTkDzZdBBqURJauflrXIrigUMJIbwhMLRZokmIgptZmXRwmLjxvRdnWr.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 37" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Uncharted 2 Among Thieves - NPUA80698 - 18.63 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/uncharted_2_among_thieves.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA80698_00-UNCHARTED2PCKG01&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA80698_00/ftZMEmWLrGqjEHKXIBnGMKwRkyjImyQwgNPVfMZYIJluNTMNcpWdxjOGJaMInMxcXylNjdBBslPvQhbHyCdxAYfphddDuAZJBAaye.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 38" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>The King of Fighters XIII - NPUB30837 - 2.18 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/the_king_of_fighters_xiii.png</url>
-			<target type="u">psgm:install?contentid=UP0005-NPUB30837_00-KOFXIII000000001&amp;url=http://zeus.dl.playstation.net/cdn/UP0005/NPUB30837_00/MUMXNzYMkVBqksaIZCDltDrmRSipjRjiZlyBXRkXpFjhsnQLOAcCUPznLbXcGlQXKxXperQOwiBgPeCHetLkiOhqmYpMfkmTEkHPT.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 39" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Mafia 2 - NPUB30656 - 7.22 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/mafia_2.png</url>
-			<target type="u">psgm:install?contentid=UP1001-NPUB30656_00-MAFIAIIPSNGAME01&amp;url=http://zeus.dl.playstation.net/cdn/UP1001/NPUB30656_00/nGVepvELjNKYiJjpTXGdzcMOGgZRqEVhwPSUJEXpuechGUyLrIbVPTWBRAcCPUCmUqMPLgRppFUDekHyhpClNDeuUbsoaZzpktXDR.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 40" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Batman Arkham Origins - NPUB31261 - 14.09 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/batman_arkham_origins.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31261_00-BATMANARKHAMORIG&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31261_00/mXBFfMEiUUJbaYZtbpJlgzowceBTUuwDeuSMzxeNUBbFCzhBLYSZfbVWytQgVZla.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 41" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Odin Sphere Leifthrasir - NPUB31840 - 3461,62 MB</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/odin_sphere_leifthrasir.png</url>
-			<target type="u">psgm:install?contentid=UP0177-NPUB31840_00-ODINSPHEREDL0000&amp;url=http://zeus.dl.playstation.net/cdn/UP0177/NPUB31840_00/UP0177-NPUB31840_00-ODINSPHEREDL0000_bg_1_135007820c3a0fafa74a331d48246fdb211e5f75.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 42" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>WWE 2K17 - NPUB31838 - 8807.93 MB</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/wwe_2k17.png</url>
-			<target type="u">psgm:install?contentid=UP1001-NPUB31838_00-WWE2K17DIGITAL01&amp;url=http://zeus.dl.playstation.net/cdn/UP1001/NPUB31838_00/UP1001-NPUB31838_00-WWE2K17DIGITAL01_bg_1_8c3a989d574d03224a847732d492e0d612a801ea.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 43" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Grid 2 - NPUB31075 - 5.78Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/grid_2.png</url>
-			<target type="u">psgm:install?contentid=UP4001-NPUB31075_00-00000000000GRID2&amp;url=http://zeus.dl.playstation.net/cdn/UP4001/NPUB31075_00/bnrYhrflIPkgjXEWGdbrpbaZtFnjFmfEimXskRAnkXJneovWQmxCVQUeqKriARZW.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 44" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Watch Dogs - NPUB31254 - 13.48 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/watch_dogs.png</url>
-			<target type="u">psgm:install?contentid=UP0001-NPUB31254_00-WATCHDOGSFULLGAM&amp;url=http://zeus.dl.playstation.net/cdn/UP0001/NPUB31254_00/imczMyqQkcLvXpyFXWUJeoeCMeKotdzBIYBplaqpsLTDYDpnXivAClxFSmqeojsh.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 45" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Counter Strike - Global Offensive - NPUB30589 - 2.24 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/counter_strike_global_offensive.png</url>
-			<target type="u">psgm:install?contentid=UP2061-NPUB30589_00-HDDBOOTCSGO00001&amp;url=http://zeus.dl.playstation.net/cdn/UP2061/NPUB30589_00/pTFErilTEGGEtpyjjSIomuZUmoLCQcEhkcAPZhnrbNIIdzLAIsxuwumVPUilXAHObhGsPBOTHlksEbtgfvJiqIOQIClwgPvpRtfMi.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 46" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations 2 - Episódio 2 - NPUB31518 - 1.24 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations_2_epsode_2.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB31518_00-BHR2EPISODE20000&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB31518_00/UP0102-NPUB31518_00-BHR2EPISODE20000_bg_1_953c6d82b3c24335a3e4d6a9dcc7ec5c440b3aeb.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 47" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations 2 - Episódio 3 - NPUB31518 - 1.37 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations_2_episode_3.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB31518_00-BHR2EPISODE30000&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB31518_00/UP0102-NPUB31518_00-BHR2EPISODE30000_bg_1_f05ee026f57f760d2c0d174f8011373de3942b5a.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 48" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations 2 - Episódio 4 - NPUB31518 - 1.52 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations_2_episode_4.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB31518_00-BHR2EPISODE40000&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB31518_00/UP0102-NPUB31518_00-BHR2EPISODE40000_bg_1_69ab0d70ac38ee838e6b441e16be82f6d0ca225c.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 49" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations 2 - Episódio Extra Little Miss - NPUB31518 - 548.72 Mb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations_2_extra_episode_2_little_miss.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB31518_00-BHR2EXEPISODE200&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB31518_00/UP0102-NPUB31518_00-BHR2EXEPISODE200_bg_1_0ff3b19c3e7c0c9cf49da05208670aecb4e5e567.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 50" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Resident Evil Revelations 2 - Episódio extra The Strugle - NPUB31518 - 550.49 Mb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/resident_evil_revelations_2_extra_episode_1_the_struggle.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB31518_00-BHR2EXEPISODE100&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB31518_00/UP0102-NPUB31518_00-BHR2EXEPISODE100_bg_1_73e574adbfe90bc46119d60fc294456bd10f6100.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 51" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Tomb Raider - NPUB31146 - 8.57 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/tomb_raider.png</url>
-			<target type="u">psgm:install?contentid=UP0082-NPUB31146_00-TOMBRAIDERDIGITA&amp;url=http://zeus.dl.playstation.net/cdn/UP0082/NPUB31146_00/kpCRUgSiNmcbiKqyFNArzntBCUAvvTHBxFJVEhgLAbUSCAZsaCNmdStUbAurObLB.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 52" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>LEGO Batman 3 - Beyond Gotham - NPUB31499 - 7.3 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/lego_batman_3_beyond_gotham.png</url>
-			<target type="u">psgm:install?contentid=UP1018-NPUB31499_00-LEGOBATMANTHREE0&amp;url=http://zeus.dl.playstation.net/cdn/UP1018/NPUB31499_00/VicBXZGcUEcKdDUvLbZuOTLjmhvzOFbJsCMCKPHoNjYHpecjiqjmmPIKgqlLvahf.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 53" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Minecraft - NPUB31419 - 85.74 Mb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/minecraft_playstation_3_edition.png</url>
-			<target type="u">psgm:install?contentid=UP4433-NPUB31419_00-MINECRAFTPS30295&amp;url=http://ares.dl.playstation.net/cdn/UP4433/NPUB31419_00/iSliMlxlFgPXEehLRJQqtikYSylPUsBHXpgRJvjkgpmepWePzzzEynxeLojyoYcD.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 54" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Uncharted 3 - Drakes Deception - BCUS98233 - 11.13 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/uncarted_3_drakes_deception.png</url>
-			<target type="u">psgm:install?contentid=UP9000-BCUS98233_00-UNCHARTED3SPGAME&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/BCUS98233_00/kLveSqfkZXrnTlQhxHLIsfHjGkUBthJYhURjtImffoksHvqAzgpVDdOyWfYNfNoyTexcbCjUFcnCGkkJMaCLpZudgQPUSrmYzvjDz.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 55" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Alien: Isolation - NPEB01921 - 9.26 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/alien_isolation.png</url>
-			<target type="u">psgm:install?contentid=EP0177-NPEB01921_00-GALIENISOL000001&amp;url=http://zeus.dl.playstation.net/cdn/EP0177/NPEB01921_00/luFMTkCDFLpbEkHuzjQYiUVnlySsOgZGBZcnsiSIrGrFszPSVLyGBlGLEgvQBNiESqvNZXVMQoVuFFBCowLJAEzQnCpOvbKkYIXvE.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 56" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Super Street Fighter 4 Arcade Edition - NPUB30649 - 17.95 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/super_streath_figther_4_arcade_edition.png</url>
-			<target type="u">psgm:install?contentid=UP0102-NPUB30649_00-SSFIVAEDIGITAL00&amp;url=http://zeus.dl.playstation.net/cdn/UP0102/NPUB30649_00/KKhgmnTuFGZNaTTMVeZWFxxyifemzdFoNSRCIWqGZyJjCxDubkULskfhMBTwGqixbNpjCaqLPVZwzGLUjwqIVqTTsSnIXUSUzWaAP.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 57" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty: Modern Warfare 2 - NPEB00731 - 7.14 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_modern_warfare_2.png</url>
-			<target type="u">psgm:install?contentid=EP0002-NPEB00731_00-MW2FULLGAMEDL001&amp;url=http://zeus.dl.playstation.net/cdn/EP0002/NPEB00731_00/pYldxYpCLslIIMMPjETjCOzBQbjKtxQzkPdjRwgvwsCYkuJCYGubQKijhydcfYIG.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 58" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Call of Duty: Modern Warfare 3 - NPUB30787 - 8.04 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/call_of_duty_modern_warfare_3.png</url>
-			<target type="u">psgm:install?contentid=UP0002-NPUB30787_00-MW3FULLGAMEDL001&amp;url=http://zeus.dl.playstation.net/cdn/UP0002/NPUB30787_00/lUfffCPmYsoCaBzHebHaTOjsjQqkJGJthGopTnmNVkjkNZMNXccpaCUJVxVAANqcsiBMQqrnzJOARKnherhlTwOeEQhKxOSVeppaL.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 59" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Max Payne 3 - NPUB30902 - 13.58 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/max_payne_3.png</url>
-			<target type="u">psgm:install?contentid=UP1004-NPUB30902_00-MAXPAYNE3DIGITAL&amp;url=http://zeus.dl.playstation.net/cdn/UP1004/NPUB30902_00/AeIzHFJcAlBBFsUSlkCbynrDSHEySvEvQjnPvquafsTFSUzujPGQMhNOpNYrbAPqRzyXkHlzkcHmZlyOllEROtQMDoUKoZWsDhOoa.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 60" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Metal Gear Solid V: The Phantom Pain - NPUB31594 - 11.76 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/metal_gear_solid_v_the_pantom_pain.png</url>
-			<target type="u">psgm:install?contentid=UP0101-NPUB31594_00-MAINGAME00000000&amp;url=http://zeus.dl.playstation.net/cdn/UP0101/NPUB31594_00/UP0101-NPUB31594_00-MAINGAME00000000_bg_1_8ef80bdeb67d443a5022111b38d367db19acbce2.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 61" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Life Is Strange - Episode 2 - NPUB31636 - 1.02 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/life_is_strange_episode_2.png</url>
-			<target type="u">psgm:install?contentid=UP0082-NPUB31636_00-EPISODE000000002&amp;url=http://zeus.dl.playstation.net/cdn/UP0082/NPUB31636_00/UP0082-NPUB31636_00-EPISODE000000002_bg_1_b389e98adc1c99024b902c1c70e39343eb9829b0.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 62" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Life Is Strange - Episode 3 - NPUB31636 - 1.27 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/life_is_strange__episode_3.png</url>
-			<target type="u">psgm:install?contentid=UP0082-NPUB31636_00-EPISODE000000002&amp;url=http://zeus.dl.playstation.net/cdn/UP0082/NPUB31636_00/UP0082-NPUB31636_00-EPISODE000000003_bg_1_32736ee963ba58ff03fed4858373b6c86b0f079d.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 63" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Life Is Strange - Episode 4 - NPUB31636 - 1.66 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/life_is_strange_episode_4.png</url>
-			<target type="u">psgm:install?contentid=UP0082-NPUB31636_00-EPISODE000000004&amp;url=http://zeus.dl.playstation.net/cdn/UP0082/NPUB31636_00/UP0082-NPUB31636_00-EPISODE000000004_bg_1_15043e8ae516c47152d49b0f91f390c735ff8855.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 64" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Life Is Strange - Episode 5 - NPUB31636 - 1.88 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/life_is_strange_episode_4.png</url>
-			<target type="u">psgm:install?contentid=UP0082-NPUB31636_00-EPISODE000000005&amp;url=http://zeus.dl.playstation.net/cdn/UP0082/NPUB31636_00/UP0082-NPUB31636_00-EPISODE000000005_bg_1_d47a1c9b13fe2fcc7abc6acff5f605d73fbaebc8.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 65" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Gran Turismo 6 - NPUA81049 - 14.33 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/gran_turismo_6.png</url>
-			<target type="u">psgm:install?contentid=UP9000-NPUA81049_00-0000000000000000&amp;url=http://zeus.dl.playstation.net/cdn/UP9000/NPUA81049_00/hqQqSraIcVRhAwhijZmNzJJHKWSLoXThclDUdyEKDWnCIJimEFcNSvxsfJdtkqDT.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 66" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>DYNASTY WARRIORS 8 - NPUB31234 - 18.21 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/dynasty_warriors_8.png</url>
-			<target type="u">psgm:install?contentid=UP4108-NPUB31234_00-DW8HDDBOOTGAME00&amp;url=http://zeus.dl.playstation.net/cdn/UP4108/NPUB31234_00/duivWfKPWqWXBTXWJeyxukoMCpcTGeQaEJXkqSZpZGgsgYyBxKGLxrLGRxiIBlcy.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 67" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>Warriors Orochi 3 Ultimate - NPUB31505 - 18.31 Gb</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/warriors_orochi_3_ultimate.png</url>
-			<target type="u">psgm:install?contentid=UP4108-NPUB31505_00-WORO3ULTHDDBOOT0&amp;url=http://zeus.dl.playstation.net/cdn/UP4108/NPUB31505_00/iKChApWfRipwNENbrKSIqpGxBGFUTFoXVyAZygvivGmOQFECmJDvunAoGIhkCHnt.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>		<mtrl id="1080778886" mname="Item 68" from="2019-02-28T00:00:00.000Z" until="2100-12-31T23:59:00.000Z" lastm="2019-04-09T20:52:07.000Z" anno="">
-			<desc>House of the Dead Overkill Extended Cut - NPUB30760 - 7620,12 MB</desc>
-			<url type="2">http://github.com/LuanTeles/PS3-4K-Pro/raw/main/Playstation_Store/media/game/the_house_of_the_dead_overkill_extended_cut.png</url>
-			<target type="u">psgm:install?contentid=UP0177-NPUB30760_00-HOTDOKECPSNUS001&amp;url=http://zeus.dl.playstation.net/cdn/UP0177/NPUB30760_00/hjTtHUcVyZQqDCwRfssYvEEJjUmtiHIiVbQSzZSQBTVTihWNlpjEorqJFMdgDWeB.pkg</target>
-			<cntry agelmt="0">all</cntry>
-			<lang>all</lang>
-		</mtrl>
-		
-	</spc>
-</nsx>
