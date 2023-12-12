@@ -9,11 +9,13 @@
 
 #define CHUNK 65536
 #define APP_TITLEID "PS34KPROX"
-#define DEV_TITLEID "PS3LOAD00"
+#define DEV_TITLEID "PS34KPROX"
+
+#define APP_TITLEID_LITE "PS34KPROL"
+#define APP_TITLEID_FULL "PS34KPROX"
 
 using namespace std;
 
-int check_auto(string mainfolder);
 string int_to_string(int number);
 string convert_size(double size, string format);
 double get_free_space(const char *path);
@@ -28,6 +30,9 @@ string recursiveDelete(string direct);
 string *recursiveListing(string direct);
 string correct_path(string dpath, int what);
 string get_app_folder(char* path);
+int check_current_state(string appfolder);
+void check_current_folder(string appfolder);
+void check_jailbreak_type(string appfolder);
 void check_firmware_changes(string appfolder);
 int check_terms(string appfolder);
 string copy_file(string title, const char *dirfrom, const char *dirto, const char *filename, double filesize, double copy_currentsize, double copy_totalsize, int numfiles_current, int numfiles_total, int check_flag, int showprogress);

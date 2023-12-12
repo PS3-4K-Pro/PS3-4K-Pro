@@ -2,14 +2,6 @@
 #include "syscalls.h"
 #include "graphics.h"
 
-int dont_backup = 0;
-
-int check_auto(string appfolder)
-{
-	dont_backup=exists((appfolder+"/data/backup.cfg").c_str());
-	return dont_backup;
-}
-
 string int_to_string(int number)
 {
 	if (number == 0) return "0";
@@ -22,7 +14,7 @@ string int_to_string(int number)
 	}
 	for (size_t i=0;i<temp.length();i++)
 		returnvalue+=temp[temp.length()-i-1];
-
+	
 	return returnvalue;
 }
 
@@ -83,8 +75,8 @@ string create_file(const char* cpath)
   FILE *path;
 
   /* open destination file */
-  if((path = fopen(cpath, "wb"))==NULL) return "Cannot open file ("+(string)cpath+") for writing!";
-  if(fclose(path)==EOF) return "Cannot close file ("+(string)cpath+")!";
+  if((path = fopen(cpath, "wb"))==NULL) return "Couldn't open the file ("+(string)cpath+") for writing!";
+  if(fclose(path)==EOF) return "Couldn't close the file ("+(string)cpath+")!";
 
   return "";
 }
@@ -98,7 +90,6 @@ int is_dir(const char *path)
 	else
 		return 0;
 }
-
 int exists(const char *path)
 {
 	sysFSStat info;
@@ -108,9 +99,8 @@ int exists(const char *path)
 }
 
 int exists_backups(string appfolder)
-{
-	if(dont_backup) return -1;
-	return exists((appfolder+"/backups").c_str());
+{						 
+	return exists((appfolder+"/backup").c_str());
 }
 
 int mkdir_one(string dirtocreate)
@@ -251,7 +241,6 @@ int check_delete(string dpath, int what)
 
 	return -1;
 }
-
 string correct_path(string dpath, int what)
 {
 	string cpath;
@@ -284,27 +273,87 @@ string get_app_folder(char* path)
 	return folder;
 }
 
-// Detects firmware changes, not necessary as i don't use backups 
+void check_firmware_changes(string appfolder)
+{
+	if (exists("/dev_flash/vsh/resource/explore/xmb/xmbmp.cfg")!=0 && exists_backups(appfolder)==0)
+	{
+		Mess.Dialog(MSG_OK,"Warning:\nThe system has detected a firmware change!\n\nAll previous backups will be deleted.");
+		string ret=recursiveDelete(appfolder+"/backup");
+		if (ret == "") Mess.Dialog(MSG_OK,"All backups deleted!\nPress OK to continue.");
+		else Mess.Dialog(MSG_ERROR,("Error: There was a problem with the deletion!\n\n"+ret).c_str());
+	}
+}
 
-//void check_firmware_changes(string appfolder)
-//{
-//	if (exists("/dev_flash/vsh/resource/explore/xmb/xmbmp.cfg")!=0 && exists_backups(appfolder)==0)
-//	{
-//		Mess.Dialog(MSG_OK,"The system detected a firmware change. All previous backups will be deleted.");
-//		string ret=recursiveDelete(appfolder+"/backups");
-//		if (ret == "") Mess.Dialog(MSG_OK,"All backups deleted!\nPress OK to continue.");
-//		else Mess.Dialog(MSG_ERROR,("Problem with delete!\n\nError: "+ret).c_str());
-//	}
-// }
+int check_current_state(string appfolder)
+{	
+	if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")==0)
+	{
+		if (exists(("/dev_hdd0/game/"+(string)APP_TITLEID"/USRDIR/backup").c_str())!=0 && exists(("/dev_hdd0/game/"+(string)APP_TITLEID_FULL+"/USRDIR/backup").c_str())==0)
+		{
+			Mess.Dialog(MSG_OK,"Error:\nThe PS3™ 4K Pro Full version is currently installed!\nPlease uninstall it before proceeding with the installation of this version.");
+			return 0;
+		}
+		else if (exists_backups(appfolder)!=0) 
+		{
+			Mess.Dialog(MSG_OK,"Warning:\nThe system has detected that the PS3™ 4K Pro is already installed, but it has not found the backup file. This situation may be attributed to one of the following reasons:\n\n- The system storage has been formatted.\n- The backup file has been intentionally deleted.\n\nThe installer will allow you to proceed with a new installation. However, it's important to note that to return the system to its original state, you will need to perform a firmware reinstallation.");
+		}
+	}
+	return -1;
+}
+
+void check_current_folder(string appfolder)
+
+{	
+	//Resets the current folder to allow jailbreak type change without reinstalling the pkg
+	if (exists((appfolder+"/app/install/current/Custom Firmware (CFW)").c_str())==0)
+	{
+		sysLv2FsRename((appfolder+"/app/install/current").c_str(),(appfolder+"/app/install/cfw").c_str());
+	}
+	else if (exists((appfolder+"/app/install/current/Hybrid Firmware (HFW)").c_str())==0)
+	{
+		sysLv2FsRename((appfolder+"/app/install/current").c_str(),(appfolder+"/app/install/hfw").c_str());
+	}
+	else
+	{
+		//Mess.Dialog(MSG_OK,"First launch, detecting jailbreak type...");
+	}
+}
+
+
+void check_jailbreak_type(string appfolder)
+{	
+
+	string jailbreak=get_firmware_info("jailbreak");
+	
+	
+	//Checks jailbreak type
+	{
+		if (jailbreak == "Hybrid Firmware")
+			{	
+				sysLv2FsRename((appfolder+"/app/install/hfw").c_str(),(appfolder+"/app/install/current").c_str());
+				//Mess.Dialog(MSG_OK,"HEN jaibreak detected!");
+			}
+		else if (jailbreak == "Custom Firmware")
+			{
+				sysLv2FsRename((appfolder+"/app/install/cfw").c_str(),(appfolder+"/app/install/current").c_str());
+				//Mess.Dialog(MSG_OK,"CFW jaibreak detected!");
+		
+			}
+		else
+			{
+				Mess.Dialog(MSG_OK,"Error: No jaibreak detected!");
+			}
+	}
+}
 
 int check_terms(string appfolder)
-{
-	if(dont_backup) return 0;
+{					
 	if (exists((appfolder+"/data/terms-accepted.cfg").c_str())!=0)//terms not yet accepted
 	{
-		Mess.Dialog(MSG_OK,"This \"software\" is provided WITHOUT ANY WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the \"software\" or the use of other dealings in the \"software\".");
-		Mess.Dialog(MSG_OK,"This \"software\" is a hobby project and is intended solely for educational and testing purposes, it is required that such user actions must comply with local, federal and country legislation.\nThe author, partners, and associates do not condone piracy and shall take NO responsibility, legal or otherwise implied, for any misuse of, or for any loss that may occur while using the \"software\".");
-		Mess.Dialog(MSG_YESNO_DYES,"You are solely responsible for complying with the applicable laws in your country and you must cease using this software should your actions during the \"software\" operation lead to or may lead to infringement or violation of the rights of the respective content copyright holders.\n\nDo you accept this terms?");
+		Mess.Dialog(MSG_OK,"This software is provided without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability and fitness for a particular purpose and noninfringement. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use of other dealings in the software.");
+		Mess.Dialog(MSG_OK,"This software is a hobby project and is intended solely for educational and testing purposes, it is required that such user actions must comply with local, federal and country legislation.\nThe author, partners, and associates do not condone piracy and shall take 'no' responsibility, legal or otherwise implied, for any misuse of, or for any loss that may occur while using the software.");
+		Mess.Dialog(MSG_YESNO_DYES,"You are solely responsible for complying with the applicable laws in your country and you must cease using this software should your actions during the software operation lead to or may lead to infringement or violation of the rights of the respective content copyright holders.\n\nDo you accept this terms?");
+		Mess.Dialog(MSG_OK,"\n\n\nWelcome to the Ultimate PlayStation Experience\n\n");
 		if (Mess.GetResponse(MSG_DIALOG_BTN_YES)==1)
 		{
 			create_file((appfolder+"/data/terms-accepted.cfg").c_str());
@@ -314,7 +363,6 @@ int check_terms(string appfolder)
 	}
 	return 0;
 }
-
 
 string copy_file(string title, const char *dirfrom, const char *dirto, const char *filename, double filesize, double copy_currentsize, double copy_totalsize, int numfiles_current, int numfiles_total, int check_flag, int showprogress)
 {
@@ -333,20 +381,20 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 	PF.printf(("- source: "+cfrom+" \r\n").c_str());
 	PF.printf(("- dest: "+ctoo+" \r\n").c_str());
 
-	if ((from = fopen(cfrom.c_str(), "rb"))==NULL) return "Cannot open source file ("+cfrom+") for reading!";
+	if ((from = fopen(cfrom.c_str(), "rb"))==NULL) return "Couldn't open source file ("+cfrom+") for reading!";
 	if (check_flag!=1)
 	{
 		char* buf = (char*) calloc (1, CHUNK+1);
 		size_t size;
-		if ((to = fopen(ctoo.c_str(), "wb"))==NULL) return "Cannot open destination file ("+ctoo+") for writing!";
+		if ((to = fopen(ctoo.c_str(), "wb"))==NULL) return "Couldn't open destination file ("+ctoo+") for writing!";
 		do
 		{
 			//draw_copy(title, dirfrom, dirto, filename, cfrom, copy_currentsize, copy_totalsize, numfiles_current, numfiles_total, countsize);
 			size = fread(buf, 1, CHUNK, from);
-			if(ferror(from)) return "Error reading source file ("+cfrom+")!";
+			if(ferror(from)) return "Couldn't read source file ("+cfrom+")!";
 			fwrite(buf, 1, size, to);
-			if (ferror(to)) return "Error writing destination file ("+ctoo+")!";
-
+			if (ferror(to)) return "Couldn't write destination file ("+ctoo+")!";
+			
 			if (showprogress==0)
 			{
 				current_copy_size=current_copy_size+(double)size;
@@ -374,17 +422,16 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 		char* buf = (char*) calloc (1, CHUNK+1);
 		char* buf2 = (char*) calloc (1, CHUNK+1);
 		size_t size, size2;
-		if ((to = fopen(ctoo.c_str(), "rb"))==NULL) return "Cannot open destination file ("+ctoo+") for reading!";
+		if ((to = fopen(ctoo.c_str(), "rb"))==NULL) return "Couldn't open destination file ("+ctoo+") for reading!";
 		do
 		{
 			size = fread(buf, 1, CHUNK, from);
-			if(ferror(from)) return "Error reading source file ("+cfrom+")!";
+			if(ferror(from)) return "Couldn't read source file ("+cfrom+")!";
 			size2 = fread(buf2, 1, CHUNK, to);
-			if (ferror(to)) return "Error reading destination file ("+ctoo+")!";
-			
-// Removed check, avoid installation issues
-			
-//			if (size != size2) return "Source and destination files have different sizes!";//
+			if (ferror(to)) return "Couldn't read destination file ("+ctoo+")!";
+
+// Removed check to avoid installation issues
+//			if (size != size2) return "Source and destination files have different sizes!";
 //			if (memcmp(buf, buf2, size)!=0) return "Source and destination files are different!";
 
 			if (showprogress==0)
@@ -411,8 +458,8 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 		free(buf2);
 	}
 
-	if (fclose(from)==EOF) return "Cannot close source file ("+cfrom+")!";
-	if (fclose(to)==EOF) return "Cannot close destination file ("+ctoo+")!";
+	if (fclose(from)==EOF) return "Couldn't close source file ("+cfrom+")!";
+	if (fclose(to)==EOF) return "Couldn't close destination file ("+ctoo+")!";
 
 	return "";
 }
@@ -424,15 +471,16 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 	int findex=0, mountblind=0, numfiles_total=0, numfiles_current=1, j=0, i=0, showprogress=0;
 	double copy_totalsize=0, copy_currentsize=0, source_size=0, dest_size=0, freespace_size=0;
 	string source_paths[100], dest_paths[100], check_paths[100];
-	string check_path, sourcefile, destfile, filename, dest, source, title;
+	string check_path, clock_speed_path, reinstall_path, shared_path, version_path, sourcefile, destfile, filename, dest, source, title;
+	string fw_version=get_firmware_info("version"), ttype=get_firmware_info("type"), clock_speed=get_firmware_info("gpu_clock_speed");
 	string *files_list = NULL, *final_list_source = NULL, *final_list_dest = NULL;  //Pointer for an array to hold the filenames.
 	string ret="";
 
 	if (operation=="backup")
 	{
-		check_path=appfolder+"/apps/"+app+"/"+fw_folder;
+		check_path=appfolder+"/app/install/current/"+app+"/"+fw_folder;
 		dp = opendir (check_path.c_str());
-		if (dp == NULL) return "Cannot open directory "+check_path;
+		if (dp == NULL) return "Couldn't open directory "+check_path;
 		while ( (dirp = readdir(dp) ) )
 		{
 			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
@@ -441,24 +489,61 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 				{
 					check_paths[findex]=check_path+"/"+dirp->d_name;
 					source_paths[findex]=correct_path(dirp->d_name,2);
-					dest_paths[findex]=appfolder+"/backups/"+foldername+"/"+dirp->d_name;
+					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
+					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+					findex++;
+				}
+			}
+		}
+		
+		shared_path=appfolder+"/app/shared/";
+		dp = opendir (shared_path.c_str());
+		if (dp == NULL) return "Couldn't open directory "+shared_path;
+		while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
+			{
+				if (dirp->d_type == DT_DIR)
+				{
+					check_paths[findex]=shared_path+"/"+dirp->d_name;
+					source_paths[findex]=correct_path(dirp->d_name,2);
+					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
+					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+					findex++;
+				}
+			}
+		}
+		
+		version_path=appfolder+"/app/version/"+fw_version+"/"+app+"/"+ttype;
+		dp = opendir (version_path.c_str());
+		if (dp == NULL) return "Couldn't open directory "+version_path;
+		while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
+			{
+				if (dirp->d_type == DT_DIR)
+				{
+					check_paths[findex]=version_path+"/"+dirp->d_name;
+					source_paths[findex]=correct_path(dirp->d_name,2);
+					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
 					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
 					findex++;
 				}
 				//check zip files
 			}
 		}
+
 		closedir(dp);
-		title="Backing up files ...";
+		title="Backing up files...";
 	}
 	else if (operation=="restore")
 	{
-		check_path=appfolder+"/backups/"+foldername;
+		check_path=appfolder+"/backup/"+foldername;
 		dp = opendir (check_path.c_str());
-		if (dp == NULL) return "Cannot open directory "+check_path;
-		while ( (dirp = readdir(dp) ) )
+		if (dp == NULL) return "Couldn't open directory "+check_path;
+		while ((dirp = readdir(dp)))
 		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			if (strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
 			{
 				source_paths[findex]=check_path + "/" + dirp->d_name;
 				dest_paths[findex]=correct_path(dirp->d_name,2);
@@ -467,13 +552,14 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 			}
 		}
 		closedir(dp);
-		title="Restoring files ...";
+		title="Restoring files...";
 	}
 	else if (operation=="install")
 	{
-		check_path=appfolder+"/apps/"+app+"/"+fw_folder;
+		//
+		check_path=appfolder+"/app/install/current/"+app+"/"+fw_folder;
 		dp = opendir (check_path.c_str());
-		if (dp == NULL) return "Cannot open directory "+check_path;
+		if (dp == NULL) return "Couldn't open directory "+check_path;
 		while ( (dirp = readdir(dp) ) )
 		{
 			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
@@ -484,16 +570,88 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
 				findex++;
 			}
+		}
+		
+			reinstall_path=appfolder+"/app/reinstall/";
+			dp = opendir (reinstall_path.c_str());
+			if (dp == NULL) return "Couldn't open directory "+reinstall_path;
+			while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			{
+				if(check_delete(dirp->d_name,2)) continue;		
+				source_paths[findex]=reinstall_path + "/" + dirp->d_name;
+				dest_paths[findex]=correct_path(dirp->d_name,2);
+				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+				findex++;
+			}
+		}
+		
+			shared_path=appfolder+"/app/shared/";
+			dp = opendir (shared_path.c_str());
+			if (dp == NULL) return "Couldn't open directory "+shared_path;
+			while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			{
+				if(check_delete(dirp->d_name,2)) continue;		
+				source_paths[findex]=shared_path + "/" + dirp->d_name;
+				dest_paths[findex]=correct_path(dirp->d_name,2);
+				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+				findex++;
+			}
+		
+		}
+			
+			clock_speed_path="";
+			
+			if (clock_speed.find("Overclock") != string::npos)
+			{
+				clock_speed_path=appfolder+"/app/speed/overclock"+"/"+fw_folder;
+			}
+			else
+			{
+				clock_speed_path=appfolder+"/app/speed/standard"+"/"+fw_folder;
+			}
+
+			dp = opendir (clock_speed_path.c_str());
+			if (dp == NULL) return "Couldn't open directory "+clock_speed_path;
+			while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			{
+				if(check_delete(dirp->d_name,2)) continue;		
+				source_paths[findex]=clock_speed_path + "/" + dirp->d_name;
+				dest_paths[findex]=correct_path(dirp->d_name,2);
+				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+				findex++;
+			}
+		
+		}
+		
+		version_path=appfolder+"/app/version/"+fw_version+"/"+app+"/"+ttype;
+		dp = opendir (version_path.c_str());
+		if (dp == NULL) return "Couldn't open directory "+version_path;
+		while ( (dirp = readdir(dp) ) )
+		{
+			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			{
+				if(check_delete(dirp->d_name,2)) continue;
+				source_paths[findex]=version_path + "/" + dirp->d_name;
+				dest_paths[findex]=correct_path(dirp->d_name,2);
+				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+				findex++;
+			}
 			//check zip files
 		}
 		closedir(dp);
-		title="Copying files ...";
+		title="Copying files...\nDo not turn off the system.\nThe progress bar may appear stuck for some time, please wait.";
 	}
 
 	if (mountblind==1)
 	{
 		if (is_dev_blind_mounted()!=0) mount_dev_blind();
-		if (is_dev_blind_mounted()!=0) return "Dev_blind not mounted!";
+		if (is_dev_blind_mounted()!=0) return "dev_blind not mounted!";
 		if (exists("/dev_flash/vsh/resource/explore/xmb/xmbmp.cfg")!=0) create_file("/dev_blind/vsh/resource/explore/xmb/xmbmp.cfg");
 	}
 
@@ -555,7 +713,7 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 			if (mkdir_full(dest)!=0)
 			{
 				if (showprogress==0) Mess.ProgressBarDialogAbort();
-				return "Could not create directory ("+dest+").";
+				return "Couldn't create directory ("+dest+").";
 			}
 			ret=copy_file(title, source.c_str(), dest.c_str(), filename.c_str(),source_size, copy_currentsize, copy_totalsize, numfiles_current, numfiles_total,0,showprogress);
 			if (ret != "")
@@ -570,11 +728,11 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 	}
 	if (showprogress==0) Mess.ProgressBarDialogAbort();
 
-	//check files
+	/* check files
 	i=0;
 	copy_currentsize=0;
 	numfiles_current=1;
-	title="Checking files ...";
+	title="Checking files...";
 	if (showprogress==0) Mess.SingleProgressBarDialog(title.c_str(), "Processing files...");
 	while (strcmp(final_list_source[i].c_str(),"") != 0)
 	{
@@ -593,8 +751,8 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 		copy_currentsize=copy_currentsize+source_size;
 		numfiles_current++;
 		i++;
-	}
-	if (showprogress==0) Mess.ProgressBarDialogAbort();
+	} 
+	if (showprogress==0) Mess.ProgressBarDialogAbort();*/
 
 	return "";
 }
