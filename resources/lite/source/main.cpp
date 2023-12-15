@@ -399,10 +399,7 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/toolbox/icons/plugins_icons");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROL/USRDIR/toolbox/icons/off.png");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROL/USRDIR/toolbox/icons/on.png");
-			
-			//Delete backup
-			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup");
-			
+
 			//Enable Cobra payload if disabled
 			sysLv2FsRename("/dev_blind/rebug/cobra/stage2.cex.bak","/dev_blind/rebug/cobra/stage2.cex");
 			sysLv2FsRename("/dev_blind/rebug/cobra/stage2.dex.bak","/dev_blind/rebug/cobra/stage2.dex");
@@ -436,6 +433,9 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/tmp/wallpaper");
 			recursiveDelete("/dev_hdd0/tmp/wallpaper.off");
 			sysFsUnlink((char*)"/dev_hdd0/tmp/wm_res/npsignin_plugin.rco");
+			
+			//Delete backup
+			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup");
 
 			/* if (is_dev_blind_mounted()==0)
 			{

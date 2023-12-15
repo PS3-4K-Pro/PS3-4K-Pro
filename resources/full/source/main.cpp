@@ -156,6 +156,8 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_buttons");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_sounds");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_music");
+			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/4K");
+			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/Pro");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/normal/4K/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/normal/Pro/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/system_music/4K/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
@@ -439,9 +441,6 @@ int restore(string appfolder, string foldername)
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/icons/off.png");
 			sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/icons/on.png");
 			
-			//Delete backup
-			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup");
-			
 			//Enable Cobra payload if disabled
 			sysLv2FsRename("/dev_blind/rebug/cobra/stage2.cex.bak","/dev_blind/rebug/cobra/stage2.cex");
 			sysLv2FsRename("/dev_blind/rebug/cobra/stage2.dex.bak","/dev_blind/rebug/cobra/stage2.dex");
@@ -475,7 +474,10 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/tmp/wallpaper");
 			recursiveDelete("/dev_hdd0/tmp/wallpaper.off");
 			sysFsUnlink((char*)"/dev_hdd0/tmp/wm_res/npsignin_plugin.rco");
-
+			
+			//Delete backup
+			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup");
+			
 			/* if (is_dev_blind_mounted()==0)
 			{
 
@@ -605,6 +607,8 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_buttons");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_sounds");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_music");
+		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/4K");
+		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/Pro");
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/normal/4K/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/normal/Pro/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/transformation_packs/system_music/4K/D001/dev_blind/vsh/resource/custom_render_plugin.rco");
