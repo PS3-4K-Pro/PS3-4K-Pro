@@ -99,7 +99,7 @@ int exists(const char *path)
 }
 
 int exists_backups(string appfolder)
-{						 
+{
 	return exists((appfolder+"/backup").c_str());
 }
 
@@ -284,6 +284,23 @@ void check_firmware_changes(string appfolder)
 	}
 }
 
+int check_firmware_warning(string appfolder)
+{					
+    string fw_version, ttype, jailbreak;
+    fw_version = get_firmware_info("version");
+    ttype = get_firmware_info("type");
+	jailbreak=get_firmware_info("jailbreak");
+	
+    if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")!=0)
+	{
+		if (fw_version == "4.90" && jailbreak == "Custom Firmware" && (ttype == "CEX" || ttype == "DEX"))
+		{
+			Mess.Dialog(MSG_OK, "Warning:\nPlease be advised that PlayStation®2 ISO playback in the current system firmware is broken until Evilnat 4.90.2 is released. In the meantime, you can still play PlayStation®2 game titles via PS2™ Classics or consider installing the Evilnat PEX/D-PEX firmware variants.\n\nI apologize for any inconvenience and assure you that this issue will be addressed soon.");
+		}
+	}
+	return 0;
+}
+
 int check_current_state(string appfolder)
 {	
 	if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")==0)
@@ -302,8 +319,7 @@ int check_current_state(string appfolder)
 }
 
 void check_current_folder(string appfolder)
-
-{	
+{
 	//Resets the current folder to allow jailbreak type change without reinstalling the pkg
 	if (exists((appfolder+"/app/install/current/Custom Firmware (CFW)").c_str())==0)
 	{
@@ -319,25 +335,17 @@ void check_current_folder(string appfolder)
 	}
 }
 
-
 void check_jailbreak_type(string appfolder)
 {	
-
 	string jailbreak=get_firmware_info("jailbreak");
-	
-	
-	//Checks jailbreak type
 	{
 		if (jailbreak == "Hybrid Firmware")
 			{	
 				sysLv2FsRename((appfolder+"/app/install/hfw").c_str(),(appfolder+"/app/install/current").c_str());
-				//Mess.Dialog(MSG_OK,"HEN jaibreak detected!");
 			}
 		else if (jailbreak == "Custom Firmware")
 			{
 				sysLv2FsRename((appfolder+"/app/install/cfw").c_str(),(appfolder+"/app/install/current").c_str());
-				//Mess.Dialog(MSG_OK,"CFW jaibreak detected!");
-		
 			}
 		else
 			{
@@ -345,7 +353,6 @@ void check_jailbreak_type(string appfolder)
 			}
 	}
 }
-
 
 int check_terms(string appfolder)
 {					

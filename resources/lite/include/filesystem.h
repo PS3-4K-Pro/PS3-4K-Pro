@@ -35,6 +35,7 @@ void check_current_folder(string appfolder);
 void check_jailbreak_type(string appfolder);
 void check_firmware_changes(string appfolder);
 int check_terms(string appfolder);
+int check_firmware_warning(string appfolder);
 string copy_file(string title, const char *dirfrom, const char *dirto, const char *filename, double filesize, double copy_currentsize, double copy_totalsize, int numfiles_current, int numfiles_total, int check_flag, int showprogress);
 string copy_prepare(string appfolder, string operation, string foldername, string fw_folder, string app);
 

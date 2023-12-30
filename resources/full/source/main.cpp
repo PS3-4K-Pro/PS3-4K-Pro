@@ -86,9 +86,9 @@ int restore(string appfolder, string foldername)
 		 sys_map_path((char*)"/dev_hdd0/hen/hen_enable.xml", NULL);
 		 sys_map_path((char*)"/dev_hdd0/hen/pro_features.xml", NULL);
 
-		//Delete plugins
+		//Delete plugins and webman dependances
 		recursiveDelete("/dev_hdd0/plugins");
-		
+
 		//Delete mapped files
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/xmls/Features_Switch_Webman_Plugin.xml");
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/xmls/Features_Switch_Xai_Plugin.xml");
@@ -130,6 +130,7 @@ int restore(string appfolder, string foldername)
 			sysFsUnlink((char*)"/dev_blind/hen/HENPLUS.BIN");
 			sysFsUnlink((char*)"/dev_blind/hen/xml/hen_enabled.xml");
 			sysFsUnlink((char*)"/dev_blind/hen/xml/pro_features.xml");
+			sysFsUnlink((char*)"/dev_hdd0/HENplugin.sprx");
 			
 			//Delete the check file to set the initial settings
 			sysFsUnlink((char*)"/dev_blind/vsh/resource/explore/xmb/settings.xml");
@@ -560,9 +561,6 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/xmls/Features_Switch_Webman_Plugin.xml");
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/xmls/Features_Switch_Xai_Plugin.xml");
 		
-		//Delete webman gamehost
-		recursiveDelete("/dev_hdd0/xmlhost");
-
 		//Create necessary folders on HEN, lmn7's autohen renames them
 		sysFsMkdir((char*)"/dev_blind/hen/xml", 0777);
 		sysFsMkdir((char*)"/dev_blind/vsh/resource/AAA", 0777);
@@ -1041,12 +1039,12 @@ void bitmap_menu(string fw_version, string ttype, int menu_id, int msize, int se
 		if (selected<msize-1)
 		{
 			IBCross.AlphaDrawIMGtoBitmap(xpos(90),ypos(530),&png_button_cross,&Menu_Layer);
-			F2.PrintfToBitmap(xpos(90)+png_button_cross.width+xpos(10),ypos(530)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "Restore");
+			F2.PrintfToBitmap(xpos(90)+png_button_cross.width+xpos(10),ypos(530)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "Select");
 			IBSquare.AlphaDrawIMGtoBitmap(xpos(90),ypos(570),&png_button_square,&Menu_Layer);
-			F2.PrintfToBitmap(xpos(90)+png_button_square.width+xpos(10),ypos(570)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "Delete");
+			// F2.PrintfToBitmap(xpos(90)+png_button_square.width+xpos(10),ypos(570)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "Delete");
+			F2.PrintfToBitmap(xpos(90)+png_button_square.width+xpos(10),ypos(570)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "About");
 			IBTriangle.AlphaDrawIMGtoBitmap(xpos(90),ypos(610),&png_button_triangle,&Menu_Layer);
 			F2.PrintfToBitmap(xpos(90)+png_button_triangle.width+xpos(10),ypos(610)+sizeFont-ypos(5),&Menu_Layer, COLOR_WHITE, sizeFont, "Credits");
-			
 		}
 		else
 		{
@@ -1075,6 +1073,24 @@ s32 main(s32 argc, char* argv[])
 	fw_version=get_firmware_info("version");
 	ttype=get_firmware_info("type");
 	if (fw_version <= "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
+	if (jailbreak == "Hybrid Firmware")
+	{
+		if (fw_version >= "4.91") 
+		{ 
+			Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not yet supported.\nCheck for updates on the Telegram group @PS34KPro regarding the compatibility of the PS3™ 4K Pro with the latest firmware.").c_str());
+			
+		goto end; 
+		}
+	}
+	else if (jailbreak == "Custom Firmware")
+	{
+		if (fw_version >= "4.91") 
+		{ 
+			Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not yet supported.\nPlease consider downgrading the firmware to version 4.90 or lower and try again.\n\nCheck for updates on the Telegram group @PS34KPro regarding the compatibility of the PS3™ 4K Pro with the latest firmware.").c_str());
+			
+		goto end; 
+		}
+	}
 	if (check_current_state(mainfolder)==0) goto end;
 	check_current_folder(mainfolder);
 	check_jailbreak_type(mainfolder);
@@ -1089,6 +1105,7 @@ s32 main(s32 argc, char* argv[])
 	PF.printf("- Testing  if firmware is supported\r\n");
 	if (string_array_size(menu1)==0) { Mess.Dialog(MSG_ERROR, ("Error: The system firmware vesion "+fw_version+" is not supported.").c_str()); goto end; }
 	if (check_terms(mainfolder)!=0) goto end;
+	if (check_firmware_warning(mainfolder)!=0) goto end;
 	PF.printf("Drawing menu\r\n");
 	bitmap_inititalize(int_to_string(Graphics->height)+"p",mainfolder);
 	bitmap_menu(fw_version, ttype, current_menu, string_array_size(menu1), mpos, 0, menu1_position, menu_restore);
@@ -1140,7 +1157,7 @@ s32 main(s32 argc, char* argv[])
 					//Main Menu
 					ioPadGetData(i, &paddata);
 					if (current_menu==1)
-					{	
+					{
 						unmount_dev_blind();
 						
 						if (paddata.BTN_DOWN || paddata.ANA_L_V == 0x00FF || paddata.ANA_R_V == 0x00FF)
@@ -1162,6 +1179,7 @@ s32 main(s32 argc, char* argv[])
 							else menu1_position=msize-1;
 						}
 						else if (paddata.BTN_CROSS) //Install an app
+
 						{
 							choosed=1;
 							bitmap_menu(fw_version, ttype, current_menu, msize, mpos, choosed, menu1_position, menu_restore);
@@ -1178,7 +1196,7 @@ s32 main(s32 argc, char* argv[])
 										Graphics->AppExit();
 									}
 									else if (temp==1)
-									{ 
+									{
 										if (make_menu_to_array(mainfolder, 3,fw_version, ttype)!=0)
 										{
 											Mess.Dialog(MSG_ERROR,"Error: There was a problem reading the folder!");
@@ -1337,6 +1355,9 @@ s32 main(s32 argc, char* argv[])
 							//else current_menu=1;
 							else Graphics->AppExit();
 						}
+						
+/* Avoid user deleting the backup
+
 						else if (paddata.BTN_SQUARE)
 						{
 							if (menu3_position<msize-1) //Delete a backup
@@ -1359,6 +1380,14 @@ s32 main(s32 argc, char* argv[])
 										menu1_position++;
 									}
 								}
+							}
+						} */
+						
+						else if (paddata.BTN_SQUARE)
+						{
+							if (menu3_position<msize-1)
+							{
+								Mess.Dialog(MSG_OK, "About:\nThe PS3™ 4K Pro is a project that aims to be an all-in-one solution, covering everything from the basics to the most advanced features. It's available in two variants:\n\n• PS3™ Pro, which is the original version.\n• PS3™ 4K Pro, which was introduced later and quickly became the most popular one.\n\nThey share the same features, differing only in names and logos. It's important to note that, despite the second variant having '4K' in its name, it does not output in that resolution.");
 							}
 						}
 						
