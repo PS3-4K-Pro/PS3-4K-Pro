@@ -103,6 +103,7 @@ int restore(string appfolder, string foldername)
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup/Uninstall PS3 4K Pro/PS3~dev_hdd0/hen");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup/Uninstall PS3 Pro/PS3~dev_hdd0/hen");
 		recursiveDelete("/dev_hdd0/game_debug");
+		recursiveDelete("/dev_hdd0/hen/themes");	
 		recursiveDelete("/dev_hdd0/xmlhost.off");
 		sysFsUnlink((char*)"/dev_hdd0/autoexec.bat");
 		sysFsUnlink((char*)"/dev_hdd0/boot_init.txt");
@@ -118,6 +119,7 @@ int restore(string appfolder, string foldername)
 		sysFsUnlink((char*)"/dev_hdd0/patches.bat");
 		sysFsUnlink((char*)"/dev_hdd0/ps3-updatelist.txt");
 		sysFsUnlink((char*)"/dev_hdd0/tmp/wm_icons/icon_wm_root.png");
+		sysFsUnlink("/dev_hdd0/game/PS3ONLINE/USRDIR/settings/installedplugins/PlayStation®TV.zip");
 
 		ret=copy_prepare(appfolder, "restore", foldername, "", "");
 		if (ret == "") //restore success
@@ -133,12 +135,13 @@ int restore(string appfolder, string foldername)
 			sysFsUnlink((char*)"/dev_hdd0/HENplugin.sprx");
 			
 			//Delete the check file to set the initial settings
-			sysFsUnlink((char*)"/dev_blind/vsh/resource/explore/xmb/settings.xml");
+			sysFsUnlink((char*)"/dev_hdd0/home/settings.xml");
 
 			//Delete alternative default theme to free up space and revert to ofw look
 			sysFsUnlink((char*)"/dev_blind/vsh/resource/theme/01.p3t");
 			
 			//Reset Patches
+			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current/D800");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current/dynamic");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/disabled/D800");
@@ -148,7 +151,6 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/D800");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/dynamic");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/dynamic");
-			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/impose_screen");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/music_wave/current");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/particles_style/current");
@@ -156,6 +158,7 @@ int restore(string appfolder, string foldername)
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/psn_icon/Pro");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_buttons");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_sounds");
+			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_update_server");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_music");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/4K");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/Pro");
@@ -495,7 +498,7 @@ int restore(string appfolder, string foldername)
 			//Mess.Dialog(MSG_OK,("The "+variant+" has been uninstalled with success.\nPress OK to continue.").c_str());
 			Mess.Dialog(MSG_OK,("The "+variant+" has been uninstalled with success.\nPress OK to reboot the system.").c_str());
 			//return 1;
-			return 2;
+			return 2; //reboot dialog
 		}
 		else //problem in the restore process so emit a warning
 		{
@@ -555,7 +558,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		 sys_map_path((char*)"/dev_hdd0/hen/pro_features.xml", NULL);
 
 		//Delete the check file to set the initial settings
-		sysFsUnlink((char*)"/dev_blind/vsh/resource/explore/xmb/settings.xml");
+		sysFsUnlink((char*)"/dev_hdd0/home/settings.xml");
 		
 		//Delete mapped files
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/xmls/Features_Switch_Webman_Plugin.xml");
@@ -569,7 +572,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		sysFsUnlink((char*)"/dev_blind/vsh/resource/theme/01.p3t");
 		
 		//Delete packages on flash to free up space
-		recursiveDelete("/dev_blind/ferrox");
+		recursiveDelete("/dev_blind/ferrox/pkg"); //If the ferrox folder is deleted, ps2 playback will be broken
 		recursiveDelete("/dev_blind/rebug/packages");
 		recursiveDelete("/dev_blind/vsh/resource/explore/netflix");
 		
@@ -587,6 +590,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/icons/on.png");
 
 		//Reset Patches
+		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current/D800");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current/dynamic");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/disabled/D800");
@@ -596,7 +600,6 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/D800");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/dynamic");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/swap/dynamic");
-		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/gameboot/current");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/impose_screen");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/music_wave/current");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/particles_style/current");
@@ -604,6 +607,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/psn_icon/Pro");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_buttons");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_sounds");
+		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/system_update_server");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_music");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/4K");
 		recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/toolbox/patches/xmb_style/Pro");
@@ -687,6 +691,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		//Deletes files installed in dev_hdd0 that are not deleted by deleting the pkg
 		recursiveDelete("/dev_hdd0/PROISO");
 		recursiveDelete("/dev_hdd0/game_debug");
+		recursiveDelete("/dev_hdd0/hen/themes");	
 		recursiveDelete("/dev_hdd0/plugins");
 		recursiveDelete("/dev_hdd0/xmlhost.off");
 		sysFsUnlink((char*)"/dev_hdd0/autoexec.bat");
@@ -704,6 +709,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		sysFsUnlink((char*)"/dev_hdd0/ps3-updatelist.txt");
 		sysFsUnlink((char*)"/dev_hdd0/tmp/wm_icons/icon_wm_root.png");
 		sysFsUnlink((char*)"/dev_hdd0/tmp/wm_res/npsignin_plugin.rco");
+		sysFsUnlink("/dev_hdd0/game/PS3ONLINE/USRDIR/settings/installedplugins/PlayStation®TV.zip");
 
 		//Delete webMAN's random XMB™ files
 		recursiveDelete("/dev_hdd0/tmp/canyon");
@@ -756,7 +762,6 @@ int install(string appfolder, string firmware_folder, string app_choice)
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup/Uninstall PS3 Pro/PS3~dev_hdd0~game~PS34KPROX~USRDIR~toolbox~patches~game_column_style~cfw");
 			recursiveDelete("/dev_hdd0/game/PS34KPROX/USRDIR/backup/Uninstall PS3 Pro/PS3~dev_hdd0~game~PS34KPROX~USRDIR~toolbox~patches~welcome_screen");
 			
-			
 			ret=copy_prepare(appfolder, "install", "", firmware_folder, app_choice);
 			if (ret == "") //copy success
 			{	
@@ -776,7 +781,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 				//Mess.Dialog(MSG_OK,("The "+app_choice+" has been installed with success.\nPress OK to continue.").c_str());
 				Mess.Dialog(MSG_OK, ("The "+variant+" has been installed with success.\nPress OK to reboot the system.").c_str());
 				//return 1;
-				return 2; //Direct reboot the system
+				return 2; //reboot dialog
 			}
 			else //problem in the copy process so rollback by restoring the backup
 			{
@@ -1072,7 +1077,7 @@ s32 main(s32 argc, char* argv[])
 	mainfolder=get_app_folder(argv[0]);
 	fw_version=get_firmware_info("version");
 	ttype=get_firmware_info("type");
-	if (fw_version <= "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
+	if (fw_version < "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
 	if (jailbreak == "Hybrid Firmware")
 	{
 		if (fw_version >= "4.91") 
@@ -1440,8 +1445,9 @@ s32 main(s32 argc, char* argv[])
 		}
 		if (reboot==1)
 		{
-			Mess.Dialog(MSG_YESNO_DYES, "How do you want to reboot the system?\n\n• Select 'Yes' to reboot the system completely.\n• Select 'No to reboot the system quickly.");
-			if (Mess.GetResponse(MSG_DIALOG_BTN_NO)==1) rtype="soft";
+//Disable reboot dialog
+			//Mess.Dialog(MSG_YESNO_DYES, "How do you want to reboot the system?\n\n• Select 'Yes' to reboot the system completely.\n• Select 'No to reboot the system quickly.");
+			//if (Mess.GetResponse(MSG_DIALOG_BTN_NO)==1) rtype="soft";
 			PF.printf("- Deleting turnoff file\r\n");
 			sysFsUnlink((char*)"/dev_hdd0/tmp/turnoff");
 			PF.printf("- Rebooting system\r\n");

@@ -102,7 +102,9 @@ int restore(string appfolder, string foldername)
 		recursiveDelete("/dev_hdd0/PROISO");
 		recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup/Uninstall PS3 4K Pro Lite/PS3~dev_hdd0/hen");
 		recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup/Uninstall PS3 Pro Lite/PS3~dev_hdd0/hen");
+		recursiveDelete("/dev_hdd0/game/PS3ONLINE/USRDIR/settings/installedplugins");
 		recursiveDelete("/dev_hdd0/game_debug");
+		recursiveDelete("/dev_hdd0/hen/themes");	
 		recursiveDelete("/dev_hdd0/xmlhost.off");
 		sysFsUnlink((char*)"/dev_hdd0/autoexec.bat");
 		sysFsUnlink((char*)"/dev_hdd0/boot_init.txt");
@@ -133,7 +135,7 @@ int restore(string appfolder, string foldername)
 			sysFsUnlink((char*)"/dev_hdd0/HENplugin.sprx");
 			
 			//Delete the check file to set the initial settings
-			sysFsUnlink((char*)"/dev_blind/vsh/resource/explore/xmb/settings.xml");
+			sysFsUnlink((char*)"/dev_hdd0/home/settings.xml");
 
 			//Delete alternative default theme to free up space and revert to ofw look
 			sysFsUnlink((char*)"/dev_blind/vsh/resource/theme/01.p3t");
@@ -454,7 +456,7 @@ int restore(string appfolder, string foldername)
 			//Mess.Dialog(MSG_OK,("The "+variant+" has been uninstalled with success.\nPress OK to continue.").c_str());
 			Mess.Dialog(MSG_OK,("The "+variant+" has been uninstalled with success.\nPress OK to reboot the system.").c_str());
 			//return 1;
-			return 2;
+			return 2; //reboot dialog
 		}
 		else //problem in the restore process so emit a warning
 		{
@@ -514,7 +516,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		 sys_map_path((char*)"/dev_hdd0/hen/pro_features.xml", NULL);
 
 		//Delete the check file to set the initial settings
-		sysFsUnlink((char*)"/dev_blind/vsh/resource/explore/xmb/settings.xml");
+		sysFsUnlink((char*)"/dev_hdd0/home/settings.xml");
 		
 		//Delete mapped files
 		sysFsUnlink((char*)"/dev_hdd0/game/PS34KPROL/USRDIR/toolbox/xmls/Features_Switch_Webman_Plugin.xml");
@@ -528,7 +530,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		sysFsUnlink((char*)"/dev_blind/vsh/resource/theme/01.p3t");
 		
 		//Delete packages on flash to free up space
-		recursiveDelete("/dev_blind/ferrox");
+		recursiveDelete("/dev_blind/ferrox/pkg"); //If the ferrox folder is deleted, ps2 playback will be broken
 		recursiveDelete("/dev_blind/rebug/packages");
 		recursiveDelete("/dev_blind/vsh/resource/explore/netflix");
 		
@@ -605,8 +607,10 @@ int install(string appfolder, string firmware_folder, string app_choice)
 		//Deletes files installed in dev_hdd0 that are not deleted by deleting the pkg
 		recursiveDelete("/dev_hdd0/PROISO");
 		recursiveDelete("/dev_hdd0/game_debug");
+		recursiveDelete("/dev_hdd0/hen/themes");	
 		recursiveDelete("/dev_hdd0/plugins");
 		recursiveDelete("/dev_hdd0/xmlhost.off");
+		recursiveDelete("/dev_hdd0/game/PS3ONLINE/USRDIR/settings/installedplugins");
 		sysFsUnlink((char*)"/dev_hdd0/autoexec.bat");
 		sysFsUnlink((char*)"/dev_hdd0/boot_init.txt");
 		sysFsUnlink((char*)"/dev_hdd0/boot_init_swap.txt");
@@ -671,8 +675,7 @@ int install(string appfolder, string firmware_folder, string app_choice)
 			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup/Uninstall PS3 4K Pro Lite/PS3~dev_hdd0~game~PS34KPROL~USRDIR~toolbox~patches~welcome_screen");
 			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup/Uninstall PS3 Pro Lite/PS3~dev_hdd0/game/PS34KPROL");
 			recursiveDelete("/dev_hdd0/game/PS34KPROL/USRDIR/backup/Uninstall PS3 Pro Lite/PS3~dev_hdd0~game~PS34KPROL~USRDIR~toolbox~patches~welcome_screen");
-			
-			
+
 			ret=copy_prepare(appfolder, "install", "", firmware_folder, app_choice);
 			if (ret == "") //copy success
 			{	
@@ -692,7 +695,8 @@ int install(string appfolder, string firmware_folder, string app_choice)
 				//Mess.Dialog(MSG_OK,("The "+app_choice+" has been installed with success.\nPress OK to continue.").c_str());
 				Mess.Dialog(MSG_OK, ("The "+variant+" has been installed with success.\nPress OK to reboot the system.").c_str());
 				//return 1;
-				return 2; //Direct reboot the system
+				return 2; //reboot dialog
+				
 			}
 			else //problem in the copy process so rollback by restoring the backup
 			{
@@ -988,8 +992,7 @@ s32 main(s32 argc, char* argv[])
 	mainfolder=get_app_folder(argv[0]);
 	fw_version=get_firmware_info("version");
 	ttype=get_firmware_info("type");
-	if (fw_version <= "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
-	if (fw_version <= "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
+	if (fw_version < "4.86") { Mess.Dialog(MSG_ERROR, ("Error:\nThe system firmware vesion "+fw_version+" is not supported.\nPlease consider updating the firmware to version 4.86 or higher and try again.").c_str()); goto end; }
 	if (jailbreak == "Hybrid Firmware")
 	{
 		if (fw_version >= "4.91") 
@@ -1356,8 +1359,9 @@ s32 main(s32 argc, char* argv[])
 		}
 		if (reboot==1)
 		{
-			Mess.Dialog(MSG_YESNO_DYES, "How do you want to reboot the system?\n\n• Select 'Yes' to reboot the system completely.\n• Select 'No to reboot the system quickly.");
-			if (Mess.GetResponse(MSG_DIALOG_BTN_NO)==1) rtype="soft";
+//Disable reboot dialog
+			//Mess.Dialog(MSG_YESNO_DYES, "How do you want to reboot the system?\n\n• Select 'Yes' to reboot the system completely.\n• Select 'No to reboot the system quickly.");
+			//if (Mess.GetResponse(MSG_DIALOG_BTN_NO)==1) rtype="soft";
 			PF.printf("- Deleting turnoff file\r\n");
 			sysFsUnlink((char*)"/dev_hdd0/tmp/turnoff");
 			PF.printf("- Rebooting system\r\n");
