@@ -25,7 +25,7 @@ int xpos(int x);
 s32 center_text_x(int fsize, const char* message);
 u32 menu_text_color(int current, int selected, int choosed, int backups, int menu1_restore);
 void bitmap_inititalize(string screensize, string folder);
-void bitmap_background(string jailbreak, string version, string type, string currentDateTime);
+void bitmap_background(string jailbreak, string version, string type, string currentDateTime, string buildNumber);
 void draw_menu(int choosed);
 
 #endif

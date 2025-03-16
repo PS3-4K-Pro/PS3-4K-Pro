@@ -1,6 +1,7 @@
 #include "filesystem.h"
 #include "syscalls.h"
 #include "graphics.h"
+#include <vector>
 
 string int_to_string(int number)
 {
@@ -16,6 +17,40 @@ string int_to_string(int number)
 		returnvalue+=temp[temp.length()-i-1];
 	
 	return returnvalue;
+}
+
+void fs_check()
+{
+   sysFsMount("CELL_FS_UTILITY:HDD0", "CELL_FS_SIMPLEFS", "/dev_simple_hdd0", 0);
+
+    int fd;
+    sysFsOpen("/dev_simple_hdd0", SYS_O_RDWR, &fd, 0, 0);
+
+    uint64_t pos;
+    sysFsLseek(fd, 0x10520, 0, &pos);
+
+    int buf;
+    uint64_t nrw;
+    sysFsRead(fd, &buf, 4, &nrw);
+
+    buf |= 4;
+
+    sysFsLseek(fd, 0x10520, 0, &pos);
+    sysFsWrite(fd, &buf, 4, &nrw);
+    sysFsClose(fd);
+
+    sysFsUnmount("/dev_simple_hdd0");
+}
+
+void rebuild_db()
+{	
+	int fd;	
+	sysFsOpen("/dev_hdd0/mms/db.err", SYS_O_RDWR | SYS_O_CREAT, &fd, NULL, 0);
+
+	uint64_t nrw;
+	int rebuild_flag = 0x000003E9;
+	sysFsWrite(fd, &rebuild_flag, 4, &nrw);
+	sysFsClose(fd);
 }
 
 string convert_size(double size, string format)
@@ -286,18 +321,38 @@ void check_firmware_changes(string appfolder)
 
 int check_firmware_warning(string appfolder)
 {					
-    string fw_version, ttype, jailbreak;
+    string fw_version, ttype, jailbreak, console_model, metldr_version;
     fw_version = get_firmware_info("version");
     ttype = get_firmware_info("type");
 	jailbreak=get_firmware_info("jailbreak");
-	
-    if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")!=0)
+	console_model=get_firmware_info("console_model");
+	metldr_version=get_firmware_info("metldr_version");
+
+	if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")!=0)
 	{
-		if (fw_version == "4.90" && jailbreak == "Custom Firmware" && (ttype == "CEX" || ttype == "DEX"))
+		if ((fw_version == "4.90" || fw_version == "4.91"|| fw_version == "4.92") && jailbreak == "Custom Firmware" && ((ttype == "CEX") || (ttype == "DEX" && fw_version == "4.90")))
 		{
-			Mess.Dialog(MSG_OK, "Warning:\nPlease be advised that PlayStation®2 ISO playback in the current system firmware is broken until Evilnat 4.90.2 is released. In the meantime, you can still play PlayStation®2 game titles via PS2™ Classics or consider installing the Evilnat PEX/D-PEX firmware variants.\n\nI apologize for any inconvenience and assure you that this issue will be addressed soon.");
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK, "Warning:\nThe PlayStation®2 ISO playback in the current system firmware is broken until Cobra 8.5 source is released. In the meantime, you can still play PlayStation®2 game titles via PS2™ Classics or consider installing the Evilnat 4.90 or higher PEX/D-PEX firmware variants.\n\nI apologize for any inconvenience and assure you that this issue will be addressed soon.");
+		}
+		
+		if (fw_version == "4.89" && jailbreak == "Custom Firmware" && (ttype == "CEX" || ttype == "DEX" || ttype == "PEX" || ttype == "D-PEX"))
+		{	
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK, "Warning:\nThe PlayStation®2 ISO playback in the current system firmware is broken until Cobra 8.5 source is released. In the meantime, you can still play PlayStation®2 game titles via PS2™ Classics or consider installing the Evilnat 4.90 or higher PEX/D-PEX firmware.\n\nI apologize for any inconvenience and assure you that this issue will be addressed soon.");
+		}
+		
+		if ((jailbreak == "Hybrid Firmware") && (console_model == "Fat" || ((console_model == "Slim") && (metldr_version == "metldr"))))
+		{
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK, "Notice:\nThis system is currently running HEN.\nWhile HEN is a great option, this console supports a superior method.\n\nThe PS3™ 4K Pro is compatible with HEN, but to fully unlock its potential, consider installing a Custom Firmware.");
 		}
 	}
+
+	setLed("green_default");
 	return 0;
 }
 
@@ -307,69 +362,78 @@ int check_current_state(string appfolder)
 	{
 		if (exists(("/dev_hdd0/game/"+(string)APP_TITLEID"/USRDIR/backup").c_str())!=0 && exists(("/dev_hdd0/game/"+(string)APP_TITLEID_LITE+"/USRDIR/backup").c_str())==0)
 		{
+			setLed("red_blink_fast");
+			triple_beep();
 			Mess.Dialog(MSG_OK,"Error:\nThe PS3™ 4K Pro Lite version is currently installed!\nPlease uninstall it before proceeding with the installation of this version.");
+			return 0;
+		}
+		else if (exists("/dev_flash/vsh/resource/explore/xmb/restored.cfg")==0)
+		{
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK,"Error:\nThe PS3™ 4K Pro has been reinstalled after the installer was deleted or the system was formatted. Unfortunately, it was not possible to create a backup of the original state due to these circumstances.\nTo proceed with the uninstallation process, please reinstall the firmware.\n\nFor more information visit the Telegram group @PS34KPro");
 			return 0;
 		}
 		else if (exists_backups(appfolder)!=0) 
 		{
-			Mess.Dialog(MSG_OK,"Warning:\nThe system has detected that the PS3™ 4K Pro is already installed, but it has not found the backup file. This situation may be attributed to one of the following reasons:\n\n- The system storage has been formatted.\n- The backup file has been intentionally deleted.\n\nThe installer will allow you to proceed with a new installation. However, it's important to note that to return the system to its original state, you will need to perform a firmware reinstallation.");
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK,"Notice:\nThe system has detected that the PS3™ 4K Pro is already installed, but it has not found the backup file. This situation may be attributed to one of the following reasons:\n\n- The system storage has been formatted.\n- The backup file has been intentionally deleted.\n\nThe installer will allow you to proceed with a new installation. However, it's important to note that to return the system to its original state, you will need to perform a firmware reinstallation.");
 		}
 	}
+	else if (exists("/dev_flash/vsh/resource/explore/xmb/sandro.xml")==0)
+	{
+		if (exists("/dev_hdd0/game/SANDROBOX")==0)
+		{
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK,"Error:\nThe Sandro Box™ is currently installed!\nPlease uninstall it before proceeding with the installation of PS3™ 4K Pro.");
+			return 0;
+		}
+		else if (exists("/dev_hdd0/game/WEBMANBOX")==0)
+		{
+			setLed("red_blink_fast");
+			triple_beep();
+			Mess.Dialog(MSG_OK,"Error:\nThe webMAN Box™ is currently installed!\nPlease uninstall it before proceeding with the installation of PS3™ 4K Pro.");
+			return 0;
+		}
+	}
+	setLed("green_default");
 	return -1;
 }
 
-void check_current_folder(string appfolder)
+int check_terms(string appfolder)
 {
-	//Resets the current folder to allow jailbreak type change without reinstalling the pkg
-	if (exists((appfolder+"/app/install/current/Custom Firmware (CFW)").c_str())==0)
+	if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml")==0)
 	{
-		sysLv2FsRename((appfolder+"/app/install/current").c_str(),(appfolder+"/app/install/cfw").c_str());
-	}
-	else if (exists((appfolder+"/app/install/current/Hybrid Firmware (HFW)").c_str())==0)
-	{
-		sysLv2FsRename((appfolder+"/app/install/current").c_str(),(appfolder+"/app/install/hfw").c_str());
+		return 0;
 	}
 	else
 	{
-		//Mess.Dialog(MSG_OK,"First launch, detecting jailbreak type...");
-	}
-}
-
-void check_jailbreak_type(string appfolder)
-{	
-	string jailbreak=get_firmware_info("jailbreak");
-	{
-		if (jailbreak == "Hybrid Firmware")
-			{	
-				sysLv2FsRename((appfolder+"/app/install/hfw").c_str(),(appfolder+"/app/install/current").c_str());
-			}
-		else if (jailbreak == "Custom Firmware")
-			{
-				sysLv2FsRename((appfolder+"/app/install/cfw").c_str(),(appfolder+"/app/install/current").c_str());
-			}
-		else
-			{
-				Mess.Dialog(MSG_OK,"Error: No jaibreak detected!");
-			}
-	}
-}
-
-int check_terms(string appfolder)
-{					
-	if (exists((appfolder+"/data/terms-accepted.cfg").c_str())!=0)//terms not yet accepted
-	{
-		Mess.Dialog(MSG_OK,"This software is provided without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability and fitness for a particular purpose and noninfringement. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use of other dealings in the software.");
-		Mess.Dialog(MSG_OK,"This software is a hobby project and is intended solely for educational and testing purposes, it is required that such user actions must comply with local, federal and country legislation.\nThe author, partners, and associates do not condone piracy and shall take 'no' responsibility, legal or otherwise implied, for any misuse of, or for any loss that may occur while using the software.");
-		Mess.Dialog(MSG_YESNO_DYES,"You are solely responsible for complying with the applicable laws in your country and you must cease using this software should your actions during the software operation lead to or may lead to infringement or violation of the rights of the respective content copyright holders.\n\nDo you accept this terms?");
-		Mess.Dialog(MSG_OK,"\n\n\nWelcome to the Ultimate PlayStation Experience\n\n");
-		if (Mess.GetResponse(MSG_DIALOG_BTN_YES)==1)
+		if (exists((appfolder+"/data/terms-accepted.cfg").c_str())!=0)//terms not yet accepted
 		{
-			create_file((appfolder+"/data/terms-accepted.cfg").c_str());
-			return 0;
+			setLed("yellow_blink_fast");
+			single_beep();
+
+			Mess.Dialog(MSG_OK,"This software is provided without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability and fitness for a particular purpose and noninfringement. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use of other dealings in the software.");
+			Mess.Dialog(MSG_OK,"This software is a hobby project and is intended solely for educational and testing purposes, it is required that such user actions must comply with local, federal and country legislation.\nThe author, partners, and associates do not condone piracy and shall take 'no' responsibility, legal or otherwise implied, for any misuse of, or for any loss that may occur while using the software.");
+			Mess.Dialog(MSG_YESNO_DYES,"You are solely responsible for complying with the applicable laws in your country and you must cease using this software should your actions during the software operation lead to or may lead to infringement or violation of the rights of the respective content copyright holders.\n\nDo you accept these terms?");
+			Mess.Dialog(MSG_OK,"\n\n\nWelcome to the Ultimate PlayStation Experience\n\n");
+			if (Mess.GetResponse(MSG_DIALOG_BTN_YES)==1)
+			{
+				setLed("green_default");
+				create_file((appfolder+"/data/terms-accepted.cfg").c_str());
+				return 0;
+			}
+			else
+			{
+				setLed("green_default");
+				return -1;
+			}
 		}
-		else return -1;
+		setLed("green_default");
+		return 0;
 	}
-	return 0;
 }
 
 string copy_file(string title, const char *dirfrom, const char *dirto, const char *filename, double filesize, double copy_currentsize, double copy_totalsize, int numfiles_current, int numfiles_total, int check_flag, int showprogress)
@@ -412,7 +476,7 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 				//PF.printf((" "+int_to_string((int)percent)+"%% "+current+" \r\n").c_str());
 				//PF.printf((" change"+int_to_string((int)changepercent)+"%% real"+int_to_string((int)percent)+"%% "+current+" \r\n").c_str());
 				Mess.ProgressBarDialogFlip();
-				if (changepercent>1)
+				if (changepercent > 0.1)
 				{
 					Mess.SingleProgressBarDialogChangeMessage(current.c_str());
 					Mess.ProgressBarDialogFlip();
@@ -438,9 +502,9 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 			size2 = fread(buf2, 1, CHUNK, to);
 			if (ferror(to)) return "Couldn't read destination file ("+ctoo+")!";
 
-// Removed check to avoid installation issues
-//			if (size != size2) return "Source and destination files have different sizes!";
-//			if (memcmp(buf, buf2, size)!=0) return "Source and destination files are different!";
+			// Removed check to avoid installation issues
+			//if (size != size2) return "Source and destination files have different sizes!";
+			//if (memcmp(buf, buf2, size)!=0) return "Source and destination files are different!";
 
 			if (showprogress==0)
 			{
@@ -451,7 +515,7 @@ string copy_file(string title, const char *dirfrom, const char *dirto, const cha
 				//PF.printf((" "+int_to_string((int)percent)+"%% "+current+" \r\n").c_str());
 				//PF.printf((" change"+int_to_string((int)changepercent)+"%% real"+int_to_string((int)percent)+"%% "+current+" \r\n").c_str());
 				Mess.ProgressBarDialogFlip();
-				if (changepercent>1)
+				if (changepercent > 0.1)
 				{
 					Mess.SingleProgressBarDialogChangeMessage(current.c_str());
 					Mess.ProgressBarDialogFlip();
@@ -479,70 +543,73 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 	int findex=0, mountblind=0, numfiles_total=0, numfiles_current=1, j=0, i=0, showprogress=0;
 	double copy_totalsize=0, copy_currentsize=0, source_size=0, dest_size=0, freespace_size=0;
 	string source_paths[100], dest_paths[100], check_paths[100];
-	string check_path, clock_speed_path, reinstall_path, shared_path, version_path, sourcefile, destfile, filename, dest, source, title;
-	string fw_version=get_firmware_info("version"), ttype=get_firmware_info("type"), clock_speed=get_firmware_info("gpu_clock_speed");
+	string check_path, clock_speed_path, reinstall_path, common_path, jailbreak_path, variant_path, version_path, sourcefile, destfile, filename, dest, source, title;
+	string jailbreak=get_firmware_info("jailbreak"), fw_version=get_firmware_info("version"), ttype=get_firmware_info("type"), clock_speed=get_firmware_info("gpu_clock_speed"), console_model=get_firmware_info("console_model");
 	string *files_list = NULL, *final_list_source = NULL, *final_list_dest = NULL;  //Pointer for an array to hold the filenames.
 	string ret="";
 
-	if (operation=="backup")
+	if (operation == "backup") 
 	{
-		check_path=appfolder+"/app/install/current/"+app+"/"+fw_folder;
-		dp = opendir (check_path.c_str());
-		if (dp == NULL) return "Couldn't open directory "+check_path;
-		while ( (dirp = readdir(dp) ) )
+		if (exists("/dev_flash/vsh/resource/explore/xmb/pro.xml") != 0) 
 		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
+			if (jailbreak == "Custom Firmware")  check_path=appfolder+"/app/install/cfw/"+app+"/"+fw_folder;				  
+			else if (jailbreak == "Hybrid Firmware") check_path=appfolder+"/app/install/hfw/"+app+"/"+fw_folder;
+	
+			dp = opendir(check_path.c_str());
+			if (dp == NULL) return "Couldn't open directory " + check_path;
+			
+			while ((dirp = readdir(dp)))
 			{
-				if (dirp->d_type == DT_DIR)
+				if (strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
 				{
 					check_paths[findex]=check_path+"/"+dirp->d_name;
 					source_paths[findex]=correct_path(dirp->d_name,2);
 					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
-					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+					if (source_paths[findex].find("dev_blind") != string::npos) mountblind = 1;
 					findex++;
 				}
 			}
-		}
-		
-		shared_path=appfolder+"/app/shared/";
-		dp = opendir (shared_path.c_str());
-		if (dp == NULL) return "Couldn't open directory "+shared_path;
-		while ( (dirp = readdir(dp) ) )
-		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
-			{
-				if (dirp->d_type == DT_DIR)
-				{
-					check_paths[findex]=shared_path+"/"+dirp->d_name;
-					source_paths[findex]=correct_path(dirp->d_name,2);
-					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
-					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-					findex++;
-				}
-			}
-		}
-		
-		version_path=appfolder+"/app/version/"+fw_version+"/"+app+"/"+ttype;
-		dp = opendir (version_path.c_str());
-		if (dp == NULL) return "Couldn't open directory "+version_path;
-		while ( (dirp = readdir(dp) ) )
-		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0)
-			{
-				if (dirp->d_type == DT_DIR)
-				{
-					check_paths[findex]=version_path+"/"+dirp->d_name;
-					source_paths[findex]=correct_path(dirp->d_name,2);
-					dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
-					if (source_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-					findex++;
-				}
-				//check zip files
-			}
-		}
 
-		closedir(dp);
-		title="Backing up files...";
+			vector<string> additional_paths;
+			additional_paths.push_back(appfolder + "/app/shared/common");
+			additional_paths.push_back(appfolder + "/app/shared/jailbreak/" + app);
+			additional_paths.push_back(appfolder + "/app/shared/variant/" + fw_folder);
+	
+			if ((fw_version == "4.86" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.86/" + app + "/LITE";
+			else if ((fw_version == "4.85" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.85/" + app + "/LITE";
+			else if ((fw_version == "4.84" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.84/" + app + "/LITE";
+			else if ((fw_version == "4.84" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/spy") == 0)) version_path = appfolder + "/app/version/4.84/" + app + "/SPY";
+			else version_path = appfolder + "/app/version/" + fw_version + "/" + app + "/" + ttype;
+
+			additional_paths.push_back(version_path);
+	
+			for (vector<string>::const_iterator it = additional_paths.begin(); it != additional_paths.end(); ++it)
+			{
+				string path = *it;
+				dp = opendir(path.c_str());
+				if (dp == NULL) return "Couldn't open directory " + path;
+				
+				while ((dirp = readdir(dp))) 
+				{
+					if (strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+					{
+						check_paths[findex]=path+"/"+dirp->d_name;
+						source_paths[findex]=correct_path(dirp->d_name,2);
+						dest_paths[findex] = appfolder + "/backup/" + foldername + "/" + dirp->d_name;
+						dest_paths[findex]=appfolder+"/backup/"+foldername+"/"+dirp->d_name;
+						if (source_paths[findex].find("dev_blind") != string::npos) mountblind = 1;
+						findex++;
+					}
+				}
+			}
+			closedir(dp);
+			title = "Backing up files...";
+		} 
+		else 
+		{
+			mount_dev_blind();
+			create_file("/dev_blind/vsh/resource/explore/xmb/restored.cfg");
+		}
 	}
 	else if (operation=="restore")
 	{
@@ -562,98 +629,79 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 		closedir(dp);
 		title="Restoring files...";
 	}
-	else if (operation=="install")
-	{
-		//
-		check_path=appfolder+"/app/install/current/"+app+"/"+fw_folder;
-		dp = opendir (check_path.c_str());
-		if (dp == NULL) return "Couldn't open directory "+check_path;
-		while ( (dirp = readdir(dp) ) )
+	else if (operation == "install") 
+	{	   
+		if (jailbreak == "Custom Firmware")  check_path=appfolder+"/app/install/cfw/"+app+"/"+fw_folder;						
+		else if (jailbreak == "Hybrid Firmware") check_path=appfolder+"/app/install/hfw/"+app+"/"+fw_folder;
+	
+		dp=opendir(check_path.c_str());
+		if (dp==NULL) return "Couldn't open directory "+check_path;
+		while ((dirp=readdir(dp)))
 		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			if (strcmp(dirp->d_name, ".") !=0 && strcmp(dirp->d_name, "..") !=0 && strcmp(dirp->d_name, "") !=0 && dirp->d_type==DT_DIR)
 			{
-				if(check_delete(dirp->d_name,2)) continue;
-				source_paths[findex]=check_path + "/" + dirp->d_name;
-				dest_paths[findex]=correct_path(dirp->d_name,2);
-				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
+				if (check_delete(dirp->d_name, 2)) continue;
+				source_paths[findex]=check_path+"/"+dirp->d_name;
+				dest_paths[findex]=correct_path(dirp->d_name, 2);
+				if (dest_paths[findex].find("dev_blind") !=string::npos) mountblind=1;
 				findex++;
 			}
 		}
-		
-			reinstall_path=appfolder+"/app/reinstall/";
-			dp = opendir (reinstall_path.c_str());
-			if (dp == NULL) return "Couldn't open directory "+reinstall_path;
-			while ( (dirp = readdir(dp) ) )
-		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
-			{
-				if(check_delete(dirp->d_name,2)) continue;		
-				source_paths[findex]=reinstall_path + "/" + dirp->d_name;
-				dest_paths[findex]=correct_path(dirp->d_name,2);
-				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-				findex++;
-			}
-		}
-		
-			shared_path=appfolder+"/app/shared/";
-			dp = opendir (shared_path.c_str());
-			if (dp == NULL) return "Couldn't open directory "+shared_path;
-			while ( (dirp = readdir(dp) ) )
-		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
-			{
-				if(check_delete(dirp->d_name,2)) continue;		
-				source_paths[findex]=shared_path + "/" + dirp->d_name;
-				dest_paths[findex]=correct_path(dirp->d_name,2);
-				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-				findex++;
-			}
-		
-		}
-			
-			clock_speed_path="";
-			
-			if (clock_speed.find("Overclock") != string::npos)
-			{
-				clock_speed_path=appfolder+"/app/speed/overclock"+"/"+fw_folder;
-			}
-			else
-			{
-				clock_speed_path=appfolder+"/app/speed/standard"+"/"+fw_folder;
-			}
 
-			dp = opendir (clock_speed_path.c_str());
-			if (dp == NULL) return "Couldn't open directory "+clock_speed_path;
-			while ( (dirp = readdir(dp) ) )
-		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
-			{
-				if(check_delete(dirp->d_name,2)) continue;		
-				source_paths[findex]=clock_speed_path + "/" + dirp->d_name;
-				dest_paths[findex]=correct_path(dirp->d_name,2);
-				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-				findex++;
-			}
+		vector<string> additional_paths;
+		additional_paths.push_back(appfolder + "/app/reinstall");
+		additional_paths.push_back(appfolder + "/app/shared/common");
+		additional_paths.push_back(appfolder + "/app/shared/jailbreak/" + app);
+		additional_paths.push_back(appfolder + "/app/shared/variant/" + fw_folder);
+	
+		clock_speed_path = (jailbreak == "Custom Firmware") ? (clock_speed.find("Overclock") != string::npos ? appfolder + "/app/speed/overclock/" + fw_folder : appfolder + "/app/speed/standard/" + fw_folder) : appfolder + "/app/speed/standard/" + fw_folder;
+		additional_paths.push_back(clock_speed_path);
+
+		if ((fw_version == "4.86" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.86/" + app + "/LITE";											   
+		else if ((fw_version == "4.85" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.85/" + app + "/LITE";											   
+		else if ((fw_version == "4.84" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/rebug") == 0)) version_path = appfolder + "/app/version/4.84/" + app + "/LITE";											   
+		else if ((fw_version == "4.84" && jailbreak == "Custom Firmware" && ttype == "CEX" && exists("/dev_flash/spy") == 0)) version_path = appfolder + "/app/version/4.84/" + app + "/SPY";
+		else version_path = appfolder + "/app/version/" + fw_version + "/" + app + "/" + ttype;
 		
-		}
-		
-		version_path=appfolder+"/app/version/"+fw_version+"/"+app+"/"+ttype;
-		dp = opendir (version_path.c_str());
-		if (dp == NULL) return "Couldn't open directory "+version_path;
-		while ( (dirp = readdir(dp) ) )
+		additional_paths.push_back(version_path);
+	
+		for (vector<string>::const_iterator it=additional_paths.begin(); it !=additional_paths.end();++it)
 		{
-			if ( strcmp(dirp->d_name, ".") != 0 && strcmp(dirp->d_name, "..") != 0 && strcmp(dirp->d_name, "") != 0 && dirp->d_type == DT_DIR)
+			string path=*it;
+			dp=opendir(path.c_str());
+			if (dp==NULL) return "Couldn't open directory "+path;
+			while ((dirp=readdir(dp)))
 			{
-				if(check_delete(dirp->d_name,2)) continue;
-				source_paths[findex]=version_path + "/" + dirp->d_name;
-				dest_paths[findex]=correct_path(dirp->d_name,2);
-				if (dest_paths[findex].find("dev_blind")!=string::npos) mountblind=1;
-				findex++;
+				if (strcmp(dirp->d_name, ".") !=0 && strcmp(dirp->d_name, "..") !=0 && strcmp(dirp->d_name, "") !=0 && dirp->d_type==DT_DIR)
+				{
+					if (check_delete(dirp->d_name, 2)) continue;
+					source_paths[findex]=path+"/"+dirp->d_name;
+					dest_paths[findex]=correct_path(dirp->d_name, 2);
+					if (dest_paths[findex].find("dev_blind") !=string::npos) mountblind=1;
+					findex++;
+				}
 			}
-			//check zip files
 		}
+	
 		closedir(dp);
-		title="Copying files...\nDo not turn off the system.\nThe progress bar may appear stuck for some time, please wait.";
+
+		//Delete unused vsh.self files to free up flash space, as they are already backed up by the installer.
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.cex");
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.cexsp");
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.dex");
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.dexsp");
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.nrm");
+		sysFsUnlink((char*)"/dev_blind/vsh/module/vsh.self.swp");
+	
+		if (console_model == "Fat")
+		{
+			title = "Copying files...\nDo not turn off the system.\nThe progress bar may appear stuck for a while, please wait.\n\nThis is a FAT model console. Installation on these models tends to be slower and take several minutes.\nPlease be patient.";
+		}
+		else
+		{
+			title = "Copying files...\nDo not turn off the system.\nThe progress bar may appear stuck for a while, please wait.";
+		}
+
 	}
 
 	if (mountblind==1)
@@ -662,7 +710,7 @@ string copy_prepare(string appfolder, string operation, string foldername, strin
 		if (is_dev_blind_mounted()!=0) return "dev_blind not mounted!";
 		if (exists("/dev_flash/vsh/resource/explore/xmb/xmbmp.cfg")!=0) create_file("/dev_blind/vsh/resource/explore/xmb/xmbmp.cfg");
 	}
-
+	
 	//count files
 	final_list_source = new string[5000];
 	final_list_dest = new string[5000];

@@ -6,6 +6,9 @@
 #include <stdio.h>
 
 #define SYSCALL8_OPCODE_MAP_PATHS			0x7964
+#define SC_RING_BUZZER						(392)
+#define CELL_OK 							0
+#define FLASH_FLAGS							0x22ULL
 
 using namespace std;
 
@@ -23,7 +26,11 @@ uint64_t lv1_peek(uint64_t addr);
 uint8_t lv1_peek8(uint64_t addr);
 uint32_t lv1_peek32(uint64_t addr);
 string get_firmware_info(string what);
-
-
+bool check_flash_type();
+int lv2_ss_get_cache_of_flash_ext_flag(uint8_t *flag);
+void setLed(const char *mode);
+void single_beep();
+void double_beep();
+void triple_beep();
 
 #endif // __XMBMP_SYSCALLS_H__
