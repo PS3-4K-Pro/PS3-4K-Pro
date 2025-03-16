@@ -61,7 +61,7 @@ void bitmap_inititalize(string screensize, string folder)
 	ICalendar.LoadPNG((folder+"/data/images/"+screensize+"/calendar.png").c_str(), &png_calendar);
 }
 
-void bitmap_background(string jailbreak, string version, string type, string currentDateTime)
+void bitmap_background(string jailbreak, string version, string type, string currentDateTime, string buildNumber)
 {
 	int sizeFont = ypos(30);
 
@@ -74,6 +74,7 @@ void bitmap_background(string jailbreak, string version, string type, string cur
 	ICalendar.AlphaDrawIMGtoBitmap(xpos(1050),ypos(42),&png_calendar,&Menu_Layer);
 	int newSizeFont = sizeFont - 6; // Increase/Decrease default font size for this item
 	F2.PrintfToBitmap(xpos(1050) + png_calendar.width + xpos(10), ypos(45) + newSizeFont - ypos(5), &Menu_Layer, COLOR_WHITE, newSizeFont, "%s", currentDateTime.c_str());
+	F2.PrintfToBitmap(xpos(1050) + png_calendar.width + xpos(10), ypos(85) + newSizeFont - ypos(5), &Menu_Layer, COLOR_WHITE, newSizeFont, "%s", buildNumber.c_str());
 
 	F2.PrintfToBitmap(center_text_x(sizeFont, "XXXXXXX Firmware: X.XX (XXX)"),Graphics->height-(sizeFont+ypos(20)+(sizeFont-ypos(5))+ypos(10)),&Menu_Layer,0x00ff00,sizeFont, "%s: %s (%s)", jailbreak.c_str(), version.c_str(), type.c_str());
 	F2.PrintfToBitmap(center_text_x(sizeFont-ypos(5), "_TheUltimatePlayStationExperience__"),Graphics->height-((sizeFont-ypos(5))+ypos(10)),&Menu_Layer,0xb40898,sizeFont-ypos(5), "The Ultimate PlayStation Experience");
